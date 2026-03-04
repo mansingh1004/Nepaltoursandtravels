@@ -230,14 +230,9 @@ import {
 // Make sure your video path is correct here!
 import nepalVideo from '../images/nepalvideo.mp4'; 
 import IndiaPackages from '../pages/IndiaPackages';
-<<<<<<< Updated upstream
 import NepalPackages from "../pages/NepalPackages"
 import AdventureSport from '../adventuresports/AdventureSport';
 import Services from "../pages/Services"
-=======
-import AboutPage from './About';
-
->>>>>>> Stashed changes
 const popularDestinations = [
   "Kathmandu Valley",
   "Pokhara",
