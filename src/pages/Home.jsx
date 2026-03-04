@@ -230,7 +230,9 @@ import {
 // Make sure your video path is correct here!
 import nepalVideo from '../images/nepalvideo.mp4'; 
 import IndiaPackages from '../pages/IndiaPackages';
-
+import NepalPackages from "../pages/NepalPackages"
+import AdventureSport from '../adventuresports/AdventureSport';
+import Services from "../pages/Services"
 const popularDestinations = [
   "Kathmandu Valley",
   "Pokhara",
@@ -249,7 +251,7 @@ const quickServices = [
   { name: 'Flights', icon: <Plane size={24} strokeWidth={1.5} /> },
   { name: 'Hotels', icon: <Building2 size={24} strokeWidth={1.5} /> },
   { name: 'Forex', icon: <CreditCard size={24} strokeWidth={1.5} /> },
-  { name: 'Activities', icon: <Bike size={24} strokeWidth={1.5} /> },
+  { name: 'Packages', icon: <Bike size={24} strokeWidth={1.5} /> },
   { name: 'Services', icon: <Map size={24} strokeWidth={1.5} /> },
   { name: 'Visa', icon: <FileText size={24} strokeWidth={1.5} /> },
 ];
@@ -386,6 +388,10 @@ const HomePage = () => {
       </div>
 
       <IndiaPackages />
+
+      <NepalPackages/>
+      <AdventureSport/>
+      <Services/>
     </>
   );
 };

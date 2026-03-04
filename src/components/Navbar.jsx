@@ -346,7 +346,7 @@ const TravelNavbar = () => {
       subItems: ['Currency Exchange in Nepal', 'Sim card in Nepal'] 
     },
     { 
-      name: 'Activities', 
+      name: 'Packages', 
       icon: <Bike size={22} />,
       subItems: ['Paragliding in Nepal', 'Mountain flight', 'Bungee jumping', 'Trekking in Nepal'] 
     },

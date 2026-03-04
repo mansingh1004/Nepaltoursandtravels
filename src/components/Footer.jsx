@@ -86,10 +86,26 @@ const Footer = () => {
             <div className="space-y-4 text-sm text-indigo-200">
               <div className="flex items-start">
                 <MapPin size={20} className="text-orange-500 mr-3 mt-0.5 flex-shrink-0" />
-                <p>Branch Office Kathmandu Nepal 9 Buddha Marg,Kathmandu Nepal
+                <p>Head Office Opp. Gate No. -1, Railway Station, Gorakhpur (U.P) - 273001,
+                
+                </p>
+              </div>
+
+<div className="flex items-center">
+                <Phone size={20} className="text-orange-500 mr-3 flex-shrink-0" />
+                <p> 🇮🇳 +91 8576000084 <br />🇮🇳 +91 8576000083 </p>
+              </div>
+
+
+                 <div className="flex items-start">
+                <MapPin size={20} className="text-orange-500 mr-3 mt-0.5 flex-shrink-0" />
+                <p>
+                  Branch Office Kathmandu Nepal 9 Buddha Marg,Kathmandu Nepal
  {/* <br />🇳🇵 +977 9810198000 <br />🇳🇵 +977 9820198000 */}
  </p>
               </div>
+
+
               <div className="flex items-center">
                 <Phone size={20} className="text-orange-500 mr-3 flex-shrink-0" />
                 <p>🇳🇵 +977 9810198000 <br />🇳🇵 +977 9820198000 </p>
