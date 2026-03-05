@@ -1,11 +1,10 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Layout from "./Layout"
 import Home from "./pages/Home"
-
 import IndiaNepalallPackages from "./pages/IndiaNepalallPackages"
 import NepalAllPackages from "./nepalpackages/NepalAllPackages"
 
-import AboutPage from "./pages/About"
+
 import AyodhyaPackages from "./pages/AyodhyaPackages"
 import KathmanduTour2N3D from "./pages/KathmanduTour2N3D"
 import KashiTourPackages from "./pages/KashiTourPackages"
@@ -30,7 +29,7 @@ const App=()=>{
       <Route index element={<Home/>}/>
       <Route path="home" element={<Home/>}/>
 
-      <Route path="about" element={<AboutPage/>}/>
+      
       <Route path="ayodhya-packages" element={<AyodhyaPackages/>}/>
       <Route path="kathmandu-tour-2n3d" element={<KathmanduTour2N3D/>}/>
       <Route path="kashi-tour-packages" element={<KashiTourPackages/>}/>
@@ -47,14 +46,7 @@ const App=()=>{
       <Route path="indianepalallpackages" element={<IndiaNepalallPackages/>}/>
       <Route path="nepalallpackages" element={<NepalAllPackages/>}/>
 
-      <Route path="About" element={<AboutPage/>}/>
-      <Route path="AyodhyaPackages" element={<AyodhyaPackages/>}/>
-      <Route path="KathmanduTour2N3D" element={<KathmanduTour2N3D/>}/>
-      <Route path="KashiTourPackages" element={<KashiTourPackages/>}/>
-      <Route  path="BhutanTourPackages" element={<BhutanTourPackages/>}/>
-      <Route path="PrayagrajTourPackages" element={<PrayagrajTourPackages/>}/>
-      <Route path="BodhGayaTourPackages" element={<BodhGayaTourPackages/>}/>
-      <Route path="GorakhpurTourPackages" element={<GorakhpurTourPackages/>}/>
+     
 
 
 

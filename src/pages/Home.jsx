@@ -233,6 +233,8 @@ import IndiaPackages from '../pages/IndiaPackages';
 import NepalPackages from "../pages/NepalPackages"
 import AdventureSport from '../adventuresports/AdventureSport';
 import Services from "../pages/Services"
+
+
 const popularDestinations = [
   "Kathmandu Valley",
   "Pokhara",
