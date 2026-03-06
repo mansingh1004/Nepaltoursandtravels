@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import caption from "../images/caption.jpg"
 import { 
   Mountain, Clock, ShieldCheck, Star, 
   ChevronRight, ArrowUpRight, CheckCircle,

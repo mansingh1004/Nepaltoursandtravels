@@ -1,9 +1,22 @@
 import React, { useState, useEffect } from 'react';
+import SpiritualGateway from "../images/gorakhpur.webp"
+import ScenicNaukaVihar from "../images/Nauka-Vihar-in.jpg"
+import kushinagarbanner from "../images/kushinagar-banner2.webp"
+import Kashi from "../images/kashi-vishhwanath-temple-varanasi-india.jpg"
+import Ayodhya from "../images/Ram-Mandir-Ayodhya-Tour.jpg"
+import Kushinagar from "../images/kushinagar-banner2.webp"
+import NepalBorder from "../images/GettyImages-1439040510.webp" 
+import Prayagraj from "../images/Triveni-Sangam.webp"
+import Lucknow from "../images/luknow.jpg"
+
+
+
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
   Star, Filter, ChevronRight, ChevronLeft, Bus, Mountain,
   ShieldCheck, Zap, Landmark, CheckCircle
 } from 'lucide-react';
+import { fromJSON } from 'postcss';
 
 // 1. Gorakhpur Banner Carousel Data
 const bannerData = [
@@ -11,19 +24,19 @@ const bannerData = [
     id: 1, 
     title: "Gorakhpur: Spiritual Gateway", 
     subtitle: "Explore the divine Gorakhnath Temple and the cultural heart of Eastern UP.", 
-    image: "src/images/gorakhpur.webp" 
+    image: SpiritualGateway 
   },
   { 
     id: 2, 
     title: "Scenic Nauka Vihar", 
     subtitle: "Relax by the beautiful Ramgarh Tal and enjoy the vibrant Marine Drive.", 
-    image: "src/images/Nauka-Vihar-in.jpg" 
+    image: ScenicNaukaVihar 
   },
   { 
     id: 3, 
     title: "Gateway to Nepal & Kushinagar", 
     subtitle: "Your starting point for the Buddhist circuit and Himalayan adventures.", 
-    image: "src/images/kushinagar-banner2.webp" 
+    image: kushinagarbanner 
   }
 ];
 
@@ -33,7 +46,7 @@ const packagesData = [
     id: 1,
     title: "Gorakhpur → Kashi",
     region: "Spiritual Circuit",
-    image: "src/images/kashi-vishhwanath-temple-varanasi-india.jpg",
+    image: Kashi,
     destinations: "Gorakhpur • Varanasi • Vishwanath Temple",
     duration: "2 Days / 1 Night",
     daysValue: 2, 
@@ -50,7 +63,7 @@ const packagesData = [
     id: 2,
     title: "Gorakhpur → Ayodhya",
     region: "Ramayana Circuit",
-    image: "src/images/Ram-Mandir-Ayodhya-Tour.jpg",
+    image: Ayodhya ,
     destinations: "Gorakhpur • Ayodhya • Ram Janmabhoomi",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -67,7 +80,7 @@ const packagesData = [
     id: 3,
     title: "Gorakhpur → Kushinagar",
     region: "Buddhist Circuit",
-    image: "src/images/kushinagar-banner2.webp",
+    image: Kushinagar,
     destinations: "Mahaparinirvana Temple • Ramabhar Stupa",
     duration: "1 Day / 0 Night",
     daysValue: 1,
@@ -84,7 +97,7 @@ const packagesData = [
     id: 4,
     title: "Gorakhpur → Nepal Border",
     region: "Cross Border Link",
-    image: "src/images/GettyImages-1439040510.webp",
+    image: NepalBorder ,
     destinations: "Sonauli Border • Lumbini Gateway",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -101,7 +114,7 @@ const packagesData = [
     id: 5,
     title: "Gorakhpur → Prayagraj",
     region: "Sangam Circuit",
-    image: "src/images/Triveni-Sangam.webp",
+    image: Prayagraj ,
     destinations: "Sangam Darshan • Anand Bhawan",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -118,7 +131,7 @@ const packagesData = [
     id: 6,
     title: "Gorakhpur → Lucknow",
     region: "City Link",
-    image: "src/images/luknow.jpg",
+    image: Lucknow ,
     destinations: "Bara Imambara • Residency • Lucknow City",
     duration: "3 Days / 2 Nights",
     daysValue: 3,

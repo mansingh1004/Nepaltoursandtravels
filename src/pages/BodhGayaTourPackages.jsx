@@ -1,4 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import BodhGaya from "../images/Bodhgaya.jpg"
+import BodhGaya_2 from "../images/Bodhgaya banner_2.webp"
+import Varanasi from "../images/kashi-vishhwanath-temple-varanasi-india.jpg"
+import Rajgir from "../images/Shanti_Stupa_at_Rajgir_(cropped) (2).jpg"
+import Nalanda from "../images/nalanda-university-ruins.jpg"
+import Patna from "../images/patna.webp"
+import Kushinagar from "../images/kushinagar-banner2.webp" 
+import Nepal from "../images/GettyImages-1439040510.webp"
+
+
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
   Star, Filter, ChevronRight, ChevronLeft, Bus, Mountain,
@@ -11,13 +21,13 @@ const bannerData = [
     id: 1, 
     title: "Bodh Gaya: Land of Enlightenment", 
     subtitle: "Experience the peace and divinity where Lord Buddha attained supreme wisdom.", 
-    image: "src/images/Bodhgaya.jpg" 
+    image: BodhGaya 
   },
   { 
     id: 2, 
     title: "UNESCO World Heritage Site", 
     subtitle: "Visit the majestic Mahabodhi Temple and the sacred Bodhi Tree.", 
-    image: "src/images/Bodhgaya banner_2.webp" 
+    image: BodhGaya_2 
   },
  
 ];
@@ -28,7 +38,7 @@ const packagesData = [
     id: 1,
     title: "Bodh Gaya to Varanasi",
     region: "Spiritual Link",
-    image: "src/images/kashi-vishhwanath-temple-varanasi-india.jpg",
+    image: Varanasi ,
     destinations: "Mahabodhi Temple • Kashi Vishwanath • Ganga Aarti",
     duration: "2 Days / 1 Night",
     daysValue: 2, 
@@ -45,7 +55,7 @@ const packagesData = [
     id: 2,
     title: "Bodh Gaya to Rajgir",
     region: "Short Drive",
-    image: "src/images/Shanti_Stupa_at_Rajgir_(cropped) (2).jpg",
+    image: Rajgir,
     destinations: "Shanti Stupa • Griddhakuta Hill • Venu Van",
     duration: "2 Days / 1 Night",
     daysValue: 2, 
@@ -62,7 +72,7 @@ const packagesData = [
     id: 3,
     title: "Bodh Gaya to Nalanda",
     region: "Ancient Wisdom",
-    image: "src/images/nalanda-university-ruins.jpg",
+    image: Nalanda,
     destinations: "Nalanda University Ruins • Archaeological Museum",
     duration: "1 Day / 0 Night",
     daysValue: 1,
@@ -79,7 +89,7 @@ const packagesData = [
     id: 4,
     title: "Bodh Gaya to Patna",
     region: "State Capital",
-    image: "src/images/patna.webp",
+    image: Patna,
     destinations: "Mahavir Mandir • Golghar • Patna Museum",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -96,7 +106,7 @@ const packagesData = [
     id: 5,
     title: "Bodh Gaya to Kushinagar",
     region: "Mahaparinirvana",
-    image: "src/images/kushinagar-banner2.webp",
+    image: Kushinagar,
     destinations: "Parinirvana Temple • Ramabhar Stupa",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -113,7 +123,7 @@ const packagesData = [
     id: 6,
     title: "Bodh Gaya to Nepal (Lumbini)",
     region: "Lumbini Border",
-    image: "src/images/GettyImages-1439040510.webp",
+    image: Nepal,
     destinations: "Lumbini (Birthplace) • Sonauli Border • Gorakhpur",
     duration: "4 Days / 3 Nights",
     daysValue: 4,

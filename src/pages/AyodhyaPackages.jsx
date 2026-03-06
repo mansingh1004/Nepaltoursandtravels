@@ -1,4 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import RamMandir from "../images/Ram-Mandir-Ayodhya-Tour.jpg"
+import SarayuGhats from "../images/sarayu-ghat.jpg"
+import Rammandir from "../images/rammandir_0.jpg"
+import Kashi from "../images/kashi-vishhwanath-temple-varanasi-india.jpg"
+import Prayagraj from "../images/Triveni-Sangam.webp"
+import Gorakhpur from "../images/Visit-Gorakhnath-Temple.jpg"
+import Lucknow from "../images/luknow.jpg"
+import Chitrakoot from "../images/Chitrakoot2.jpg"
+import Nepal_Sonauli from "../images/GettyImages-1439040510.webp"
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
   Star, Filter, ChevronRight, ChevronLeft, Bus, Mountain,
@@ -11,19 +20,19 @@ const bannerData = [
     id: 1, 
     title: "Ayodhya: Spiritual Odyssey", 
     subtitle: "Experience the home of Shri Ram Janmabhoomi. A journey of faith and heritage.", 
-    image: "src/images/Ram-Mandir-Ayodhya-Tour.jpg" 
+    image: RamMandir 
   },
   { 
     id: 2, 
     title: "The Holy Sarayu Ghats", 
     subtitle: "Discover ancient temples and peaceful ghats in a serene spiritual environment.", 
-    image: "src/images/sarayu-ghat.jpg" 
+    image: SarayuGhats
   },
   { 
     id: 3, 
     title: "Ram Janmabhoomi Mandir", 
     subtitle: "Witness the architectural marvel and divine presence of Prabhu Shri Ram.", 
-    image: "src/images/rammandir_0.jpg" 
+    image: Rammandir 
   }
  
 ];
@@ -34,7 +43,7 @@ const packagesData = [
     id: 1,
     title: "Ayodhya → Kashi (Varanasi)",
     region: "Spiritual Circuit",
-    image: "src/images/kashi-vishhwanath-temple-varanasi-india.jpg",
+    image: Kashi,
     destinations: "Ram Janmabhoomi • Kashi Vishwanath • Sarnath",
     duration: "5 Days / 4 Nights",
     daysValue: 5, 
@@ -51,7 +60,7 @@ const packagesData = [
     id: 2,
     title: "Ayodhya → Prayagraj",
     region: "Holy Sangam",
-    image: "src/images/Triveni-Sangam.webp",
+    image: Prayagraj,
     destinations: "Triveni Sangam • Hanuman Garhi • Kanak Bhawan",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -68,7 +77,7 @@ const packagesData = [
     id: 3,
     title: "Ayodhya → Gorakhpur",
     region: "Heritage Route",
-    image: "src/images/Visit-Gorakhnath-Temple.jpg",
+    image: Gorakhpur,
     destinations: "Gorakhnath Temple • Ayodhya Mandir • Maghar",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -85,7 +94,7 @@ const packagesData = [
     id: 4,
     title: "Ayodhya → Lucknow",
     region: "City Link",
-    image: "src/images/luknow.jpg",
+    image: Lucknow,
     destinations: "Bara Imambara • Ram Mandir • Residency",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -102,7 +111,7 @@ const packagesData = [
     id: 5,
     title: "Ayodhya → Chitrakoot",
     region: "Ramayana Path",
-    image: "src/images/Chitrakoot2.jpg",
+    image: Chitrakoot ,
     destinations: "Gupt Godavari • Ram Ghat • Janaki Kund",
     duration: "4 Days / 3 Nights",
     daysValue: 4,
@@ -119,7 +128,7 @@ const packagesData = [
     id: 6,
     title: "Ayodhya → Nepal (Sonauli)",
     region: "International Link",
-    image: "src/images/GettyImages-1439040510.webp",
+    image: Nepal_Sonauli,
     destinations: "Ayodhya • Gorakhpur • Nepal Border",
     duration: "4 Days / 3 Nights",
     daysValue: 4,

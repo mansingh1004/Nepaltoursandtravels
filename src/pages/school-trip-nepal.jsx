@@ -1,4 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import SchoolTrip from "../images/425-1.webp"
+import HistoricalStudy from "../images/student page banner.jpg"
+import Lumbini from "../images/lumbin.jpeg"
+import BalmikiNagar from "../images/GettyImages-1439040510.webp"
+import Kushinagar from "../images/kushinagar-banner2.webp"
+import Ayodhya from "../images/Ram-Mandir-Ayodhya-Tour.jpg"
+
+
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
   Star, Filter, ChevronRight, ChevronLeft, Bus, Mountain,
@@ -11,13 +19,13 @@ const bannerData = [
     id: 1, 
     title: "School Trip: Gorakhpur to Nepal", 
     subtitle: "Empowering students through safe, well-organized excursions beyond the classroom.", 
-    image: "src/images/425-1.webp" 
+    image: SchoolTrip
   },
   { 
     id: 2, 
     title: "Historical Study Tours", 
     subtitle: "Students gain deep cultural knowledge at Lumbini and Kushinagar.", 
-    image: "src/images/student page banner.jpg" 
+    image: HistoricalStudy 
   },
   
 ];
@@ -28,7 +36,7 @@ const packagesData = [
     id: 1,
     title: "Lumbini, Nepal",
     region: "Lumbini, Nepal",
-    image: "src/images/lumbin.jpeg",
+    image: Lumbini,
     destinations: "Lumbini • Buddha Birthplace • UNESCO Site",
     duration: "3 Days / 2 Nights",
     daysValue: 3, 
@@ -45,7 +53,7 @@ const packagesData = [
     id: 2,
     title: "Balmiki Nagar",
     region: "Balmiki Nagar",
-    image: "src/images/GettyImages-1439040510.webp",
+    image: BalmikiNagar,
     destinations: "Wildlife Sanctuary • Geography Study • Eco-tourism",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -62,7 +70,7 @@ const packagesData = [
     id: 3,
     title: "Kushinagar",
     region: "Kushinagar",
-    image: "src/images/kushinagar-banner2.webp",
+    image: Kushinagar,
     destinations: "Mahaparinirvana Temple • Ramabhar Stupa",
     duration: "1 Day / 0 Night",
     daysValue: 1,
@@ -79,7 +87,7 @@ const packagesData = [
     id: 4,
     title: "Ayodhya",
     region: "Ayodhya",
-    image: "src/images/Ram-Mandir-Ayodhya-Tour.jpg",
+    image: Ayodhya,
     destinations: "Ram Janmabhoomi • Indian Culture • Traditions",
     duration: "2 Days / 1 Night",
     daysValue: 2,

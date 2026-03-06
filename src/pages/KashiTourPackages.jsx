@@ -1,4 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import KashiVaranasi from "../images/kashi page banner_1.jpg"
+import HolyGangaAarti from "../images/kashi page banner_2.webp"
+import AyodhyaTour from "../images/Ram-Mandir-Ayodhya-Tour.jpg"
+import PrayagrajTour from "../images/Triveni-Sangam.webp"
+import GorakhpurTour from "../images/Visit-Gorakhnath-Temple.jpg" 
+import LucknowTour from "../images/luknow.jpg"
+import ChitrakootTour from "../images/Chitrakoot2.jpg"
+import NepalBorder from "../images/GettyImages-1439040510.webp"
+
+
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
   Star, Filter, ChevronRight, ChevronLeft, Bus, Mountain,
@@ -11,13 +21,13 @@ const bannerData = [
     id: 1, 
     title: "Explore Kashi Varanasi", 
     subtitle: "Experience the spiritual essence of Kashi Vishwanath and the timeless Ganga heritage.", 
-    image: "src/images/kashi page banner_1.jpg" 
+    image: KashiVaranasi 
   },
   { 
     id: 2, 
     title: "Holy Ganga Aarti", 
     subtitle: "Witness the divine spectacle of the evening Aarti at Dashashwamedh Ghat.", 
-    image: "src/images/kashi page banner_2.webp" 
+    image: HolyGangaAarti 
   }
 ];
 
@@ -27,7 +37,7 @@ const packagesData = [
     id: 1,
     title: "Kashi → Ayodhya Tour",
     region: "Temple Circuit",
-    image: "src/images/Ram-Mandir-Ayodhya-Tour.jpg",
+    image: AyodhyaTour,
     destinations: "Varanasi • Ayodhya • Ram Mandir",
     duration: "2 Days / 1 Night",
     daysValue: 2, 
@@ -44,7 +54,7 @@ const packagesData = [
     id: 2,
     title: "Kashi → Prayagraj Tour",
     region: "Holy Sangam",
-    image: "src/images/Triveni-Sangam.webp",
+    image: PrayagrajTour,
     destinations: "Varanasi • Triveni Sangam • Prayagraj",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -61,7 +71,7 @@ const packagesData = [
     id: 3,
     title: "Kashi → Gorakhpur Tour",
     region: "Nepal Gateway",
-    image: "src/images/Visit-Gorakhnath-Temple.jpg",
+    image: GorakhpurTour,
     destinations: "Varanasi • Gorakhnath Temple • Maghar",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -78,7 +88,7 @@ const packagesData = [
     id: 4,
     title: "Kashi → Lucknow Tour",
     region: "Nawab Heritage",
-    image: "src/images/luknow.jpg",
+    image: LucknowTour,
     destinations: "Varanasi • Bara Imambara • Lucknow",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -95,7 +105,7 @@ const packagesData = [
     id: 5,
     title: "Kashi → Chitrakoot Tour",
     region: "Spiritual Forest",
-    image: "src/images/Chitrakoot2.jpg",
+    image: ChitrakootTour,
     destinations: "Varanasi • Ram Ghat • Gupt Godavari",
     duration: "4 Days / 3 Nights",
     daysValue: 4,
@@ -112,7 +122,7 @@ const packagesData = [
     id: 6,
     title: "Kashi → Nepal Border",
     region: "Cross Border Link",
-    image: "src/images/GettyImages-1439040510.webp",
+    image: NepalBorder,
     destinations: "Varanasi • Gorakhpur • Sonauli Border",
     duration: "5 Days / 4 Nights",
     daysValue: 5,

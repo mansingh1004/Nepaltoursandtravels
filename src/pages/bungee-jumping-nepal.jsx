@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import TheLastResort from "../images/Bungee-Jumping-at-The-Last-Resort.jpg"
+import KushmaBungee from "../images/caption (1).jpg"
+import PokharaBungee from "../images/Bungee-jump.jpg"
+import Bungeejumping from "../images/Bungee jumping.jpeg"
+
 import { 
   Mountain, Clock, ShieldCheck, Star, 
   ChevronRight, ArrowUpRight, CheckCircle,
@@ -14,21 +19,21 @@ const BungeeJumpingNepal = () => {
       name: "The Last Resort", 
       height: "160 Meters", 
       desc: "Suspended 160 meters above the wild Bhote Koshi River near the Tibetan border. Nepal's original and most iconic natural jump site.", 
-      img: "src/images/Bungee-Jumping-at-The-Last-Resort.jpg",
+      img: TheLastResort,
       tag: "Highest Natural"
     },
     { 
       name: "Kushma Bungee", 
       height: "228 Meters", 
       desc: "Experience the world's second-highest bungee jump over the jaw-dropping Kali Gandaki Gorge surrounded by epic Himalayan views.", 
-      img: "src/images/caption (1).jpg",
+      img: KushmaBungee ,
       tag: "World Rank #2"
     },
     { 
       name: "Pokhara Bungee", 
       height: "Scenic Dive", 
       desc: "Leap above the stunning Phewa Lake with breathtaking views of the Annapurna range. Perfect for first-timers seeking scenic beauty.", 
-      img: "src/images/Bungee-jump.jpg",
+      img: PokharaBungee,
       tag: "Scenic Thrill"
     }
   ];

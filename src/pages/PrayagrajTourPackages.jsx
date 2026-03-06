@@ -1,4 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import TriveniSangam from "../images/Triveni-Sangam.webp"
+import HistoricPrayagraj from "../images/anand-bhawan-prayagraj-uttar-pradesh-2.jpg"
+import KumbhMela from "../images/Kumbh Mela Destination.webp"
+import Ayodhya from "../images/Ram-Mandir-Ayodhya-Tour.jpg"
+import Kashi from "../images/kashi-vishhwanath-temple-varanasi-india.jpg"
+import Chitrakoot from "../images/Chitrakoot2.jpg"
+import Gorakhpur from "../images/Visit-Gorakhnath-Temple.jpg"
+import NepalBorder from "../images/GettyImages-1439040510.webp"
+import Lucknow from "../images/luknow.jpg"
+
+
+
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
   Star, Filter, ChevronRight, ChevronLeft, Bus, Mountain,
@@ -11,19 +23,19 @@ const bannerData = [
     id: 1, 
     title: "Triveni Sangam: The Holy Confluence", 
     subtitle: "Experience the spiritual energy where Ganga, Yamuna, and Saraswati meet.", 
-    image: "src/images/Triveni-Sangam.webp" 
+    image: TriveniSangam 
   },
   { 
     id: 2, 
     title: "Historic Prayagraj Heritage", 
     subtitle: "Discover the legacy of Anand Bhawan and ancient spiritual landmarks.", 
-    image: "src/images/anand-bhawan-prayagraj-uttar-pradesh-2.jpg" 
+    image: HistoricPrayagraj 
   },
   { 
     id: 3, 
     title: "Kumbh Mela Destination", 
     subtitle: "Join the world's largest spiritual gathering in the heart of Uttar Pradesh.", 
-    image: "src/images/Kumbh Mela Destination.webp" 
+    image: KumbhMela 
   }
 ];
 
@@ -33,7 +45,7 @@ const packagesData = [
     id: 1,
     title: "Prayagraj → Ayodhya",
     region: "Temple Circuit",
-    image: "src/images/Ram-Mandir-Ayodhya-Tour.jpg",
+    image: Ayodhya,
     destinations: "Sangam • Ayodhya • Ram Mandir",
     duration: "2 Days / 1 Night",
     daysValue: 2, 
@@ -50,7 +62,7 @@ const packagesData = [
     id: 2,
     title: "Prayagraj → Kashi",
     region: "Spiritual Circuit",
-    image: "src/images/kashi-vishhwanath-temple-varanasi-india.jpg",
+    image: Kashi,
     destinations: "Sangam • Kashi Vishwanath • Dashashwamedh Ghat",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
@@ -67,7 +79,7 @@ const packagesData = [
     id: 3,
     title: "Prayagraj → Chitrakoot",
     region: "Ramayana Path",
-    image: "src/images/Chitrakoot2.jpg",
+    image: Chitrakoot,
     destinations: "Sangam • Gupt Godavari • Ram Ghat",
     duration: "2 Days / 1 Night",
     daysValue: 2,
@@ -84,7 +96,7 @@ const packagesData = [
     id: 4,
     title: "Prayagraj → Gorakhpur",
     region: "Nepal Gateway",
-    image: "src/images/Visit-Gorakhnath-Temple.jpg",
+    image: Gorakhpur,
     destinations: "Gorakhnath Temple • Maghar • Kushinagar",
     duration: "4 Days / 3 Nights",
     daysValue: 4,
@@ -101,7 +113,7 @@ const packagesData = [
     id: 5,
     title: "Prayagraj → Nepal Border",
     region: "International Link",
-    image: "src/images/GettyImages-1439040510.webp",
+    image: NepalBorder,
     destinations: "Lumbini • Sonauli • Gorakhpur",
     duration: "5 Days / 4 Nights",
     daysValue: 5,
@@ -118,7 +130,7 @@ const packagesData = [
     id: 6,
     title: "Prayagraj → Lucknow",
     region: "Heritage Path",
-    image: "src/images/luknow.jpg",
+    image: Lucknow,
     destinations: "Bara Imambara • Rumi Darwaza • Residency",
     duration: "3 Days / 2 Nights",
     daysValue: 3,
