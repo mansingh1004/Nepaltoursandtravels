@@ -370,7 +370,8 @@ const TravelNavbar = () => {
         { name: 'Bungee jumping', path: 'bungee-jumping-nepal' },
         { name: 'Trekking in Nepal', path: 'trekking-in-nepal' },
         { name: 'Hiking in nepal',path: 'hiking-in-nepal'},
-        { name: 'Mountain biking in nepal',path:'mountain-biking-In-Nepal'}
+        { name: 'Mountain biking in nepal',path:'mountain-biking-In-Nepal'},
+        { name: 'nepal bike riding',path:'nepal-bike-riding'}
       ] 
     },
     { 

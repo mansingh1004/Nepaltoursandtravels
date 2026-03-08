@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import AIChatbot from "./components/AIChatbot";
 
 
 const Layout=()=>{
@@ -10,6 +11,7 @@ const Layout=()=>{
     <Outlet/>
     
     <Footer/>
+    <AIChatbot/>
     </>)
 }
 

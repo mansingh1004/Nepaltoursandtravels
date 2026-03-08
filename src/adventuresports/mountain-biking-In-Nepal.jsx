@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import kathmanduvalleyrintrail from "../images/kathmanduvalleyrintrail.webp"
 import pokhratosagarkottrail from "../images/pokhratosagarkottrail.webp"
 import uppermustangbiking from "../images/uppermustangbiking.webp"
+import mountainBiking from "../images/MountainBiking.jpeg"
 import { 
   Mountain, Clock, ShieldCheck, Star, 
   ChevronRight, ArrowUpRight, CheckCircle,
@@ -82,7 +83,7 @@ const MountainBikingInNepalPage = () => {
               <div className="lg:col-span-5 order-1">
                  <div className="relative rounded-3xl overflow-hidden shadow-2xl group h-[300px] lg:h-[450px]">
                     <img 
-                      src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=2070&auto=format&fit=crop" 
+                      src={mountainBiking} 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
                       alt="Biking Nepal Intro"
                     />
