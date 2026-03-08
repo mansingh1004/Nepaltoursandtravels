@@ -229,9 +229,7 @@ const Kathmandu = () => {
                 </div>
                 <div className="flex-1 overflow-hidden relative cursor-pointer group">
                   <img src={packageData.images[2]} alt="Chitwan" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center transition-colors group-hover:bg-black/50">
-                    <span className="text-white font-semibold text-sm underline underline-offset-4">See All Photos</span>
-                  </div>
+                
                 </div>
               </div>
             </div>

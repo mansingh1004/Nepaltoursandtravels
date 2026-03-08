@@ -221,7 +221,7 @@
 
 
 
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { 
   MapPin, Search, Plane, Building2, Map, 
   CreditCard, Palmtree, Bike, FileText 
@@ -229,11 +229,13 @@ import {
 
 // Make sure your video path is correct here!
 import nepalVideo from '../images/nepalvideo.mp4'; 
+import AirportnepalVideo from "../images/AirportnepalVideo.mp4"
 import IndiaPackages from '../pages/IndiaPackages';
 import NepalPackages from "../pages/NepalPackages"
 import AdventureSport from '../adventuresports/AdventureSport';
-import Services from "../pages/Services"
 
+import Services from "../pages/Services"
+import Faq  from "../pages/Faq"
 
 const popularDestinations = [
   "Kathmandu Valley",
@@ -257,6 +259,9 @@ const quickServices = [
   { name: 'Services', icon: <Map size={24} strokeWidth={1.5} /> },
   { name: 'Visa', icon: <FileText size={24} strokeWidth={1.5} /> },
 ];
+
+
+
 
 const HomePage = () => {
   const [destination, setDestination] = useState("");
@@ -291,6 +296,14 @@ const HomePage = () => {
     return () => clearTimeout(timeout);
   }, [placeholderText, isDeleting, wordIndex]);
 
+
+
+
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="w-full font-sans bg-gray-50">
@@ -312,12 +325,12 @@ const HomePage = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover z-0"
           >
-            <source src={nepalVideo} type="video/mp4" />
+            <source src={AirportnepalVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
           {/* Video Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 z-10"></div>
+          {/* <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 z-10"></div> */}
 
           {/* Hero Content */}
           <div className="relative z-20 text-center px-4 w-full max-w-6xl mx-auto mt-16 md:mt-20 flex flex-col items-center">
@@ -394,6 +407,8 @@ const HomePage = () => {
       <NepalPackages/>
       <AdventureSport/>
       <Services/>
+    
+      <Faq/>
     </>
   );
 };
