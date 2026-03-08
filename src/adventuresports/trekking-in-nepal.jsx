@@ -98,7 +98,7 @@ const TrekkingInNepal = () => {
               <div className="lg:col-span-5 order-1">
                  <div className="relative rounded-3xl overflow-hidden shadow-2xl group h-[300px] lg:h-[450px]">
                     <img 
-                      src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=2070&auto=format&fit=crop" 
+                      src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
                       alt="Trekking Nepal"
                     />
