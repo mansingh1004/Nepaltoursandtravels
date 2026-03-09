@@ -80,7 +80,7 @@ const packagesData = [
     region: "Heritage Route",
     image: Gorakhpur,
     destinations: "Gorakhnath Temple • Ayodhya Mandir • Maghar",
-    duration: "2 Days / 1 Night",
+    duration: "3 Days / 2 Night",
     daysValue: 2,
     originalPrice: "₹....",
     discountedPrice: "₹....",
