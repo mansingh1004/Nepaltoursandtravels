@@ -33,6 +33,11 @@ import AyodhyaLucknow from "./ayodhyapackages/ayodhya-lucknow"
 import AyodhyaChitrakoot from "./ayodhyapackages/ayodhya-chitrakoot"
 import AyodhyaNepal from "./ayodhyapackages/ayodhya-nepal-sonauli-"
 import AyodhyaGorakhpur from "./ayodhyapackages/ayodhya-gorakhpur"
+import KashiAyodhyaTour from "./kashipackages/kashi-ayodhya-tour"
+import KashiPrayagrajTour from "./kashipackages/kashi-prayagraj-tour"
+import KashiGorakhpurTour from "./kashipackages/kashi-gorakhpur-tour"
+import KashiLucknowTour from "./kashipackages/kashi-lucknow-tour"
+import KashiChitrakootTour from "./kashipackages/kashi-chitrakoot-tour"
 
 
 const App=()=>{
@@ -70,12 +75,19 @@ const App=()=>{
       <Route path="hiking-in-nepal" element={<HikingInNepal/>}/>
       <Route path="mountain-biking-In-Nepal" element={<MountainBikingInNepalPage/>}/>
       <Route path="nepal-bike-riding" element={<BikeTourInNepalPage/>}/>
+                        {/* Ayodhya packages */}
       <Route path="package/ayodhya-kashi-varanasi-" element={<AyodhyaKashiDetails/>}/>
       <Route path="package/ayodhya-prayagraj" element={<AyodhyaPrayagraj/>}/>
       <Route path="package/ayodhya-lucknow" element={<AyodhyaLucknow/>}/>
       <Route path="package/ayodhya-chitrakoot" element={<AyodhyaChitrakoot/>}/>
       <Route path="package/ayodhya-nepal-sonauli-" element={<AyodhyaNepal/>}/>
       <Route path="package/ayodhya-gorakhpur" element={<AyodhyaGorakhpur/>}/>
+                         {/* Kashi Packages  */}
+      <Route path="package/kashi-ayodhya-tour" element={<KashiAyodhyaTour/>}/>
+      <Route path="package/kashi-prayagraj-tour" element={<KashiPrayagrajTour/>}/>
+      <Route path="package/kashi-gorakhpur-tour" element={<KashiGorakhpurTour/>}/>
+      <Route path="package/kashi-lucknow-tour" element={<KashiLucknowTour/>}/>
+      <Route path="package/kashi-chitrakoot-tour" element={<KashiChitrakootTour/>}/>
 
 
      

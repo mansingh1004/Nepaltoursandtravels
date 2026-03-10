@@ -8,6 +8,7 @@ import LucknowTour from "../images/luknow.jpg"
 import ChitrakootTour from "../images/Chitrakoot2.jpg"
 import NepalBorder from "../images/GettyImages-1439040510.webp"
 
+import { Link } from 'react-router-dom';
 
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
@@ -39,7 +40,7 @@ const packagesData = [
     region: "Temple Circuit",
     image: AyodhyaTour,
     destinations: "Varanasi • Ayodhya • Ram Mandir",
-    duration: "2 Days / 1 Night",
+    duration: "3 Days / 2 Night",
     daysValue: 2, 
     originalPrice: "₹....",
     discountedPrice: "₹....",
@@ -56,7 +57,7 @@ const packagesData = [
     region: "Holy Sangam",
     image: PrayagrajTour,
     destinations: "Varanasi • Triveni Sangam • Prayagraj",
-    duration: "2 Days / 1 Night",
+    duration: "3 Days / 2 Night",
     daysValue: 2,
     originalPrice: "₹....",
     discountedPrice: "₹...",
@@ -200,6 +201,10 @@ const KashiTourPage = () => {
     return <Camera size={16} />;
   };
 
+  const createSlug = (name) => {
+    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-');
+  };
+
   return (
     <div className="w-full font-sans bg-gray-50 min-h-screen pb-16">
       
@@ -328,9 +333,13 @@ const KashiTourPage = () => {
                         <span className="text-xs text-gray-500 ml-1">/ person</span>
                       </div>
                     </div>
-                    <button className="bg-orange-500 hover:bg-indigo-950 text-white px-5 py-2.5 rounded-xl font-bold transition-all shadow-lg text-sm flex items-center">
-                      View Details <ChevronRight size={16} className="ml-1" />
-                    </button>
+                    <Link 
+                      to={`/package/${createSlug(pkg.title)}`}
+                      className="bg-orange-500 hover:bg-indigo-950 text-white px-5 py-2.5 rounded-xl font-bold transition-colors duration-300 shadow-lg shadow-orange-500/20 text-sm flex items-center"
+                      >
+                      View Details
+                     <ChevronRight size={16} className="ml-1" />
+                    </Link>
                   </div>
                 </div>
               </div>
