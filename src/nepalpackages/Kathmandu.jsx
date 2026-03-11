@@ -713,7 +713,7 @@ const packageData = {
   title: "Majestic Nepal: Kathmandu",
   rating: 4.5,
   reviews: 1240,
-  duration: "5 Nights 4 Days",
+  duration: "5 Days 4 Nights",
   route: "Kathmandu (2N) → Bhaktapur (1N) → Patan (1N) → Nagarkot (1N)",
   originalPrice: 52000,
   basePriceAdult: 45500,

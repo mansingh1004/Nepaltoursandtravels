@@ -46,6 +46,11 @@ import Chitwan from "./nepalpackages/Chitwan"
 import Annapurna from "./nepalpackages/Annapurna";
 import Lumbini from "./nepalpackages/Lumbini"
 import Mustang from "./nepalpackages/Mustang";
+import Nagarkot from "./nepalpackages/Nagarkot";
+import  BaseCamp from "./nepalpackages/BaseCamp";
+
+import Varanasi from "./bodhgayapackages/Varanasi"
+import BothgayaRajgir from "./bodhgayapackages/Bodhgya-Rajgir"
 
 
 const App=()=>{
@@ -81,6 +86,8 @@ const App=()=>{
       <Route path="package/annapurna"  element={<Annapurna/>}/>
       <Route path="package/lumbini"  element={<Lumbini/>}/>
       <Route path="package/mustang"  element={<Mustang/>}/>
+      <Route path="package/nagarkot" element={<Nagarkot/>}/>
+      <Route path="package/basecamp" element={<BaseCamp/>}/>
 
       <Route path="visa" element={<VisaPage/>}/>
 
@@ -101,6 +108,10 @@ const App=()=>{
       <Route path="package/kashi-gorakhpur-tour" element={<KashiGorakhpurTour/>}/>
       <Route path="package/kashi-lucknow-tour" element={<KashiLucknowTour/>}/>
       <Route path="package/kashi-chitrakoot-tour" element={<KashiChitrakootTour/>}/>
+
+      {/* Bodhgayapackages */}
+      <Route path="package/bothgaya-varanasi" element={<Varanasi/>}/>
+      <Route path="package/rajgir" element={<BothgayaRajgir/>}/>
 
 
      

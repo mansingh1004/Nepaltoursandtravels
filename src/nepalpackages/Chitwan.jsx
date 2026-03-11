@@ -14,7 +14,7 @@ const packageData = {
   title: "Wildlife Adventure: Gorakhpur to Chitwan Tour",
   rating: 4.9,
   reviews: 742,
-  duration: "3 Nights 4 Days",
+  duration: " 4 Days/ 3 Nights",
   route: "Gorakhpur → Sunauli → Chitwan National Park (3N) → Gorakhpur",
   originalPrice: 17500,
   basePriceAdult: 13500,

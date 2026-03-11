@@ -219,6 +219,7 @@ const adventures = [
     icon: <Wind size={24} />,
     image: paragliding,
     intensity: "Moderate",
+    
   },
   {
     id: 2,

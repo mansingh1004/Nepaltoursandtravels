@@ -13,7 +13,7 @@ const packageData = {
   title: "Ultimate Himalayas: Gorakhpur to Annapurna Base Camp (Heli Tour)",
   rating: 4.9,
   reviews: 312,
-  duration: "2 Nights 3 Days",
+  duration: "3 Days/ 2 Nights",
   route: "Gorakhpur → Pokhara (2N) → ABC (Heli Landing) → Gorakhpur",
   originalPrice: 85000,
   basePriceAdult: 75000,

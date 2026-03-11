@@ -4,107 +4,122 @@ import {
   Minus, Plus, Info, BedDouble, Utensils, 
   Camera, Bus, Award, Users 
 } from 'lucide-react';
-import mustangbanner from "../images/mustangbanner.png"
-import gorakhpur from "../images/gorakhpur.png";
-import muktinath from "../images/muktinath.webp";
 import pokhara from "../images/pokhara.jpg";
-import pokhara2 from "../images/pokhara2.png"
-// --- GORAKHPUR TO MUSTANG MOCK DATA ---
+import gorakhpur from "../images/gorakhpur.png";
+// --- GORAKHPUR TO BASE CAMP TREK MOCK DATA ---
 const packageData = {
-  title: "Mystic Mustang: Gorakhpur to Mustang Tour",
+  title: "Epic Trail: Gorakhpur to Annapurna Base Camp Trek",
   rating: 4.9,
-  reviews: 612,
-  duration: "5 Nights 6 Days",
-  route: "Gorakhpur → Pokhara (2N) → Jomsom/Mustang (2N) → Pokhara (1N) → Gorakhpur",
-  originalPrice: 35000,
-  basePriceAdult: 28500,
-  basePriceChildWithBed: 18500,
-  basePriceChildWithoutBed: 12500,
-  topBannerImage: mustangbanner, 
+  reviews: 824,
+  duration: "9 Days /8 Nights  ",
+  route: "Gorakhpur → Pokhara (2N) → ABC Trek (6N) → Gorakhpur",
+  originalPrice: 45000,
+  basePriceAdult: 38500,
+  basePriceChildWithBed: 28500,
+  basePriceChildWithoutBed: 22500,
+  topBannerImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=400&q=80", 
   images: [
-    "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Mountain Landscape
-    pokhara, // Pokhara
-    muktinath  // Himalayan Off-road Vibe
+    "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // ABC Mountains
+    "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Trekking Trail
+    pokhara  // Pokhara Lake
   ],
   itinerary: [
     {
       day: 1,
       title: "Pickup from Gorakhpur & Drive to Pokhara",
       image: gorakhpur,
-      description: "Arrive at Gorakhpur Railway Station or Airport. Our representative will pick you up and drive towards the Sunauli border. After clearing border formalities, enjoy a scenic drive through winding mountain roads to the beautiful city of Pokhara. Check into your hotel and spend a relaxing evening by Phewa Lake. Overnight stay in Pokhara."
+      description: "Arrive at Gorakhpur Railway Station or Airport. Our representative will pick you up and drive towards the Sunauli border. After clearing border entry formalities, enjoy a highly scenic mountain drive to the beautiful lakeside city of Pokhara. Check into your hotel, rest, and prep your trekking gear. Overnight stay in Pokhara."
     },
     {
       day: 2,
-      title: "Pokhara to Jomsom (Lower Mustang)",
-      image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      description: "After an early breakfast, begin your thrilling off-road journey towards Jomsom in the Mustang region. The drive takes you along the Kali Gandaki River, the deepest gorge in the world, offering spectacular views of Mt. Annapurna and Dhaulagiri. Arrive in Jomsom, check into your hotel, and acclimatize to the high altitude. Overnight stay in Jomsom."
+      title: "Drive to Nayapul & Trek to Ghandruk",
+      image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "After breakfast, take a 1.5-hour drive to Nayapul, the starting point of your trek. From here, begin your trek through lush forests and traditional villages to reach Ghandruk (1,940m), a beautiful Gurung village offering stunning views of Annapurna South and Machhapuchhre. Overnight stay in a local Teahouse."
     },
     {
       day: 3,
-      title: "Muktinath Darshan & Explore Mustang",
-      image: muktinath,
-      description: "Drive to Muktinath Temple (3,800m), a highly sacred site for both Hindus and Buddhists. Take a holy bath in the 108 water spouts (Muktidhara) and visit the Jwala Mai temple. After Darshan, drive down to Kagbeni or explore the rugged, desert-like landscapes of Lower Mustang. Return to Jomsom for an overnight stay."
+      title: "Trek from Ghandruk to Chhomrong",
+      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Today’s trail involves a steep descent to the Kimrong Khola followed by a steep ascent to Chhomrong (2,170m). Chhomrong is the gateway to the Annapurna Sanctuary and offers magnificent close-up views of the mountain peaks. Overnight stay in a Teahouse."
     },
     {
       day: 4,
-      title: "Drive Back to Pokhara",
-      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      description: "After breakfast, check out and begin your descent back to Pokhara. The return journey offers a different perspective of the majestic Himalayan valleys and waterfalls. Reach Pokhara by late afternoon, check into your hotel, and relax after the adventurous off-road trip. Overnight stay in Pokhara."
+      title: "Trek from Chhomrong to Dovan",
+      image: "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Descend via stone steps to the Chhomrong Khola, cross the suspension bridge, and climb up to Sinuwa. From here, the trail passes through a beautiful forest of bamboo, rhododendron, and oak to reach Dovan (2,580m). Overnight stay in a Teahouse."
     },
     {
       day: 5,
-      title: "Pokhara Local Sightseeing",
-      image: pokhara2,
-      description: "Start the day with a visit to Davis Fall, the mysterious Gupteshwor Mahadev Cave, and the historic Bindabasini Temple. In the evening, enjoy a peaceful boat ride on Phewa Lake and visit the Tal Barahi Temple. You can also explore the Lakeside market for souvenirs. Overnight stay in Pokhara."
+      title: "Trek to Annapurna Base Camp (ABC) via MBC",
+      image: "https://images.unsplash.com/photo-1589802787167-393ff80e6088?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "The ultimate day! Trek past the Hinku Cave to reach Machhapuchhre Base Camp (MBC). After a short break, continue the gentle climb into the Annapurna Sanctuary to finally arrive at Annapurna Base Camp (4,130m). Witness a dramatic 360-degree panorama of the Himalayan giants. Overnight stay at ABC."
     },
     {
       day: 6,
+      title: "ABC Sunrise & Trek down to Bamboo",
+      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Wake up before dawn to witness a breathtaking golden sunrise over Mt. Annapurna I. After capturing lifetime memories, begin your descent back through MBC, Deurali, and finally reach Bamboo (2,310m) for the night. The trail down is much easier and faster."
+    },
+    {
+      day: 7,
+      title: "Trek to Jhinu Danda (Natural Hot Springs)",
+      image: "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Continue descending to Chhomrong and then take a steep trail down to Jhinu Danda (1,780m). Here, you can relax your tired muscles in the natural hot springs located right by the Modi Khola riverbank. Enjoy your last evening in the mountains. Overnight stay in a Teahouse."
+    },
+    {
+      day: 8,
+      title: "Trek to Nayapul & Drive back to Pokhara",
+      image: "https://images.unsplash.com/photo-1605640840469-60ce8f05eeac?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Enjoy your final morning walk through picturesque landscapes to reach Nayapul. Your trekking journey ends here. Board your vehicle and drive back to Pokhara. Check into your hotel, enjoy a hot shower, and celebrate your successful expedition at Lakeside. Overnight stay in Pokhara."
+    },
+    {
+      day: 9,
       title: "Drive Back to Gorakhpur & Departure",
       image: gorakhpur,
-      description: "After breakfast, check out from your hotel with lifetime memories of the mystical Mustang region. Begin your return journey to the Indian border. Cross Sunauli and proceed to Gorakhpur. You will be dropped off at Gorakhpur Railway Station or Airport for your onward journey."
+      description: "After a hearty breakfast, check out from your hotel and begin your return journey to the Indian border. Cross Sunauli and proceed to Gorakhpur. You will be dropped off at Gorakhpur Railway Station or Airport, concluding your epic Himalayan adventure."
     }
   ],
   highlights: [
-    "Holy Darshan at the sacred Muktinath Temple (3,800m).",
-    "Thrilling off-road  drive through the Kali Gandaki Gorge.",
-    "Explore the unique, desert-like Tibetan landscapes of Lower Mustang.",
-    "Sightseeing and relaxing boat ride in the scenic city of Pokhara.",
+    "Reach Annapurna Base Camp at an altitude of 4,130m.",
+    "Witness the majestic 360-degree panorama of the Annapurna range.",
+    "Relax in the natural hot springs at Jhinu Danda.",
+    "Experience local Gurung culture in the village of Ghandruk.",
     "Read More"
   ],
   transfer: [
-    "Pick-up and drop-off at Gorakhpur Railway Station / Airport.",
-    "Gorakhpur to Pokhara transfers by comfortable AC vehicle.",
-    "Pokhara to Jomsom/Muktinath by specialized  Jeep (Scorpio/Bolero).",
+    "Gorakhpur to Pokhara return transfers by private AC vehicle.",
+    "Pokhara to Nayapul (Trek start/end point) return transfers.",
+    "Cross-border permit assistance at the Sunauli border.",
     "All toll taxes, parking fees, fuel, and driver allowances are included."
   ],
   sightseeing: [
-    "Mustang: Muktinath Temple, 108 Holy Water Spouts, Kagbeni Village.",
-    "Pokhara: Phewa Lake Boating, Davis Fall, Gupteshwor Cave.",
-    "Scenic drive along the Kali Gandaki River and world's deepest gorge."
+    "Kathmandu/Pokhara scenic highway drive.",
+    "Trekking through Annapurna Conservation Area (ACAP).",
+    "Machhapuchhre Base Camp (MBC) & Annapurna Base Camp (ABC)."
   ],
   accommodation: [
-    "Pokhara: 3 Nights in a 3-star or 4-star premium lake-view hotel.",
-    "Jomsom/Mustang: 2 Nights in the best available standard mountain lodge/hotel."
+    "Pokhara: 2 Nights in a 3-star premium lake-view hotel (Day 1 & Day 8).",
+    "Trekking Route: 6 Nights in authentic mountain Teahouses/Lodges."
   ],
   meals: [
-    "Daily buffet breakfast at all hotels/lodges.",
-    "Dinner is included during the stay in Jomsom.",
-    "1 bottle of packaged drinking water per person per day during travel."
+    "Pokhara: Daily buffet breakfast at the hotel.",
+    "Trekking: All meals (Breakfast, Lunch, Dinner) included during the 6-day trek.",
+    "Note: Beverages and bottled water are not included during the trek."
   ],
   inclusionExclusions: {
     inclusions: [
-      "Accommodation on a twin-sharing basis for 5 Nights.",
-      "Breakfast at all locations and Dinner in Jomsom.",
-      "All transfers as per itinerary (AC vehicle in plains, 4WD in mountains).",
-      "Annapurna Conservation Area Project (ACAP) & TIMS permits.",
-      "Experienced Hindi/English speaking driver-cum-guide."
+      "Accommodation (2N Pokhara Hotel, 6N Mountain Teahouses).",
+      "All meals during the trek (AP plan) and breakfast in Pokhara.",
+      "All necessary trekking permits (ACAP & TIMS Card).",
+      "Experienced, English/Hindi speaking Government-licensed Trekking Guide.",
+      "One Porter for every two trekkers to carry luggage."
     ],
     exclusions: [
       "Train/Airfare to reach Gorakhpur.",
-      "Lunches across all days and Dinners in Pokhara.",
-      "Monument entrance fees, boating charges, and camera fees.",
-      "Travel insurance or emergency helicopter rescue costs.",
-      "Personal expenses (laundry, tips, telephone, room heaters)."
+      "Lunches and Dinners in Pokhara & Gorakhpur.",
+      "Personal trekking gear (Sleeping bags, jackets, boots).",
+      "Travel & Health insurance (Must include helicopter rescue).",
+      "Hot showers, Wi-Fi, and battery charging fees at teahouses."
     ]
   }
 };
@@ -143,7 +158,7 @@ const GuestCounter = ({ label, subLabel, value, onIncrement, onDecrement, minVal
   </div>
 );
 
-const GorakhpurToMustang = () => {
+const GorakhpurToBaseCampTrek = () => {
   const [openDay, setOpenDay] = useState(1);
   const [activeMainTab, setActiveMainTab] = useState('itinerary'); 
   const [activeSubTab, setActiveSubTab] = useState('highlights'); 
@@ -215,7 +230,7 @@ const GorakhpurToMustang = () => {
       
       {/* --- FULL WIDTH TOP BANNER IMAGE --- */}
       <div className="w-full h-[250px] md:h-[350px] lg:h-[400px] mb-6 relative">
-        <img src={packageData.topBannerImage} alt="Gorakhpur to Mustang Banner" className="w-full h-full object-cover" />
+        <img src={packageData.topBannerImage} alt="Base Camp Trek Banner" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
@@ -248,42 +263,42 @@ const GorakhpurToMustang = () => {
             {/* Image Gallery */}
             <div className="flex flex-col md:flex-row gap-2 h-[300px] md:h-[400px] mb-6 relative rounded-lg overflow-hidden">
               <div className="absolute top-4 left-4 z-10 bg-white px-3 py-1 rounded text-red-600 text-xs font-bold flex items-center shadow-md">
-                <Users size={14} className="mr-1" /> Adventure Tour
+                <Users size={14} className="mr-1" /> Trekking Expedition
               </div>
               <div className="w-full md:w-2/3 h-full overflow-hidden">
-                <img src={packageData.images[0]} alt="Mustang Landscape" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={packageData.images[0]} alt="Annapurna Sanctuary" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="hidden md:flex flex-col gap-2 w-full md:w-1/3 h-full">
                 <div className="flex-1 overflow-hidden">
-                  <img src={packageData.images[1]} alt="Pokhara Lake" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={packageData.images[1]} alt="Trekking Trail" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="flex-1 overflow-hidden relative cursor-pointer group">
-                  <img src={packageData.images[2]} alt="Muktinath Offroad" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={packageData.images[2]} alt="Pokhara" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
               </div>
             </div>
 
             {/* Inclusions Icons */}
-            <div className="flex items-center gap-6 mb-10 pb-6 border-b border-gray-200 overflow-x-auto hide-scrollbar  ">
-              <div className="flex flex-col  cursor-pointer  items-center justify-center min-w-[80px]">
-                <div className="w-14 h-14    rounded-full bg-pink-500 text-white flex items-center justify-center mb-2 shadow-md"><BedDouble size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700">Hotel</span>
+            <div className="flex items-center gap-6 mb-10 pb-6 border-b border-gray-200 overflow-x-auto hide-scrollbar">
+              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+                <div className="w-14 h-14 rounded-full bg-pink-500 text-white flex items-center justify-center mb-2 shadow-md"><BedDouble size={24} /></div>
+                <span className="text-xs font-semibold text-gray-700">Teahouses</span>
               </div>
-              <div className="flex flex-col  cursor-pointer  items-center justify-center min-w-[80px]">
+              <div className="flex flex-col cursor-pointer items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-orange-500 text-white flex items-center justify-center mb-2 shadow-md"><Utensils size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700">Meals</span>
+                <span className="text-xs font-semibold text-gray-700">Trek Meals</span>
               </div>
               <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-purple-600 text-white flex items-center justify-center mb-2 shadow-md"><Camera size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700">Sightseeing</span>
+                <span className="text-xs font-semibold text-gray-700">Guide</span>
               </div>
               <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-yellow-500 text-white flex items-center justify-center mb-2 shadow-md"><Bus size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700"> Transfer</span>
+                <span className="text-xs font-semibold text-gray-700">Transfer</span>
               </div>
               <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-orange-400 text-white flex items-center justify-center mb-2 shadow-md"><Award size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700">Highlights</span>
+                <span className="text-xs font-semibold text-gray-700">Permits</span>
               </div>
             </div>
 
@@ -385,7 +400,7 @@ const GorakhpurToMustang = () => {
 
                 {activeSubTab === 'sightseeing' && (
                   <div className="animate-fadeIn">
-                    <h3 className="text-lg font-bold text-gray-800 mb-4">Sightseeing Details</h3>
+                    <h3 className="text-lg font-bold text-gray-800 mb-4">Trekking Details</h3>
                     <ul className="space-y-4">
                       {packageData.sightseeing.map((item, index) => (
                         <li key={index} className="flex items-start text-sm text-gray-600 font-medium">
@@ -469,10 +484,10 @@ const GorakhpurToMustang = () => {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Tour Type</label>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Trek Group Type</label>
                     <select className="w-full border border-gray-300 rounded px-3 py-2.5 text-sm text-gray-700 outline-none focus:border-red-400 bg-white">
-                      <option>Standard</option>
-                      <option>Premium</option>
+                      <option>Private Group</option>
+                      <option>Fixed Departure</option>
                     </select>
                   </div>
                   <div>
@@ -631,7 +646,7 @@ const GorakhpurToMustang = () => {
               <div className="bg-[#f9f9f9] border border-gray-100 rounded-md py-3 px-4 flex items-center justify-center mb-5">
                 <div className="text-left flex items-center text-xs text-gray-600">
                   <div className="w-6 h-6 bg-red-100 text-red-600 rounded mr-2 flex items-center justify-center font-bold text-[10px]">HR</div>
-                  <span><strong className="text-gray-800 text-sm">Earn +850</strong><br/>Holiday Reward points on this booking</span>
+                  <span><strong className="text-gray-800 text-sm">Earn +1500</strong><br/>Holiday Reward points on this booking</span>
                   <Info size={14} className="ml-2 text-gray-400" />
                 </div>
               </div>
@@ -669,12 +684,12 @@ const GorakhpurToMustang = () => {
 
               <div className="space-y-3">
                 <div className="border border-dashed border-gray-300 rounded bg-[#fcfcfc] p-3 opacity-60">
-                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> MUSTANG10</div>
-                  <p className="text-[11px] text-gray-500 ml-6">Get 10% off on Muktinath Tours*</p>
+                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> TREKNEPAL10</div>
+                  <p className="text-[11px] text-gray-500 ml-6">Get 10% off on all Base Camp Treks*</p>
                 </div>
                 <div className="border border-dashed border-gray-300 rounded bg-[#fcfcfc] p-3 opacity-60">
-                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> NEPAL26</div>
-                  <p className="text-[11px] text-gray-500 ml-6">Upto ₹5000 off on Credit Cards*</p>
+                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> HDFC26</div>
+                  <p className="text-[11px] text-gray-500 ml-6">Upto ₹8000 off on HDFC Credit Cards*</p>
                 </div>
               </div>
             </div>
@@ -693,4 +708,4 @@ const GorakhpurToMustang = () => {
   );
 };
 
-export default GorakhpurToMustang;
+export default GorakhpurToBaseCampTrek;

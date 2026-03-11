@@ -38,7 +38,7 @@ const bannerData = [
 const packagesData = [
   {
     id: 1,
-    title: "Bodh Gaya to Varanasi",
+    title: " BothGaya → Varanasi",
     region: "Spiritual Link",
     image: Varanasi ,
     destinations: "Mahabodhi Temple • Kashi Vishwanath • Ganga Aarti",
@@ -55,7 +55,7 @@ const packagesData = [
   },
   {
     id: 2,
-    title: "Bodh Gaya to Rajgir",
+    title: "Rajgir",
     region: "Short Drive",
     image: Rajgir,
     destinations: "Shanti Stupa • Griddhakuta Hill • Venu Van",

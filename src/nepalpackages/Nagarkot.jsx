@@ -4,107 +4,92 @@ import {
   Minus, Plus, Info, BedDouble, Utensils, 
   Camera, Bus, Award, Users 
 } from 'lucide-react';
-import mustangbanner from "../images/mustangbanner.png"
-import gorakhpur from "../images/gorakhpur.png";
-import muktinath from "../images/muktinath.webp";
-import pokhara from "../images/pokhara.jpg";
-import pokhara2 from "../images/pokhara2.png"
-// --- GORAKHPUR TO MUSTANG MOCK DATA ---
+import nagarkotbanner from "../images/nagarkotbanner.png"
+import nagarkot from "../images/nagarkot.jpeg"
+// --- GORAKHPUR TO NAGARKOT MOCK DATA ---
 const packageData = {
-  title: "Mystic Mustang: Gorakhpur to Mustang Tour",
-  rating: 4.9,
-  reviews: 612,
-  duration: "5 Nights 6 Days",
-  route: "Gorakhpur → Pokhara (2N) → Jomsom/Mustang (2N) → Pokhara (1N) → Gorakhpur",
-  originalPrice: 35000,
-  basePriceAdult: 28500,
-  basePriceChildWithBed: 18500,
-  basePriceChildWithoutBed: 12500,
-  topBannerImage: mustangbanner, 
+  title: "Himalayan Sunrise: Gorakhpur to Nagarkot Tour",
+  rating: 4.7,
+  reviews: 489,
+  duration: "3 Nights 4 Days",
+  route: "Gorakhpur → Kathmandu (2N) → Nagarkot (1N) → Gorakhpur",
+  originalPrice: 22500,
+  basePriceAdult: 18500,
+  basePriceChildWithBed: 12500,
+  basePriceChildWithoutBed: 8500,
+  topBannerImage: nagarkotbanner, 
   images: [
-    "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Mountain Landscape
-    pokhara, // Pokhara
-    muktinath  // Himalayan Off-road Vibe
+    nagarkot, // Nagarkot Sunrise
+    "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Kathmandu Durbar Square
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"  // Himalayan Landscape
   ],
   itinerary: [
     {
       day: 1,
-      title: "Pickup from Gorakhpur & Drive to Pokhara",
-      image: gorakhpur,
-      description: "Arrive at Gorakhpur Railway Station or Airport. Our representative will pick you up and drive towards the Sunauli border. After clearing border formalities, enjoy a scenic drive through winding mountain roads to the beautiful city of Pokhara. Check into your hotel and spend a relaxing evening by Phewa Lake. Overnight stay in Pokhara."
+      title: "Pickup from Gorakhpur & Drive to Kathmandu",
+      image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Arrive at Gorakhpur Railway Station or Airport. Our representative will pick you up and drive towards the Sunauli border. After clearing border entry formalities, enjoy a highly scenic mountain drive along the Trishuli River to the capital city, Kathmandu. Check into your hotel, relax, and spend the evening exploring the vibrant streets of Thamel. Overnight stay in Kathmandu."
     },
     {
       day: 2,
-      title: "Pokhara to Jomsom (Lower Mustang)",
-      image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      description: "After an early breakfast, begin your thrilling off-road journey towards Jomsom in the Mustang region. The drive takes you along the Kali Gandaki River, the deepest gorge in the world, offering spectacular views of Mt. Annapurna and Dhaulagiri. Arrive in Jomsom, check into your hotel, and acclimatize to the high altitude. Overnight stay in Jomsom."
+      title: "Kathmandu Spiritual & Heritage Sightseeing",
+      image: "https://images.unsplash.com/photo-1627894483216-2138af692e32?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "After breakfast, head out for a full-day guided sightseeing tour of Kathmandu Valley. Visit the sacred Pashupatinath Temple on the banks of the Bagmati River, seek blessings at the Jal Narayan (Budhanilkantha) temple, and explore the massive Boudhanath Stupa. Later, visit the Swayambhunath (Monkey Temple) for a panoramic view of the city. Return to your hotel for an overnight stay."
     },
     {
       day: 3,
-      title: "Muktinath Darshan & Explore Mustang",
-      image: muktinath,
-      description: "Drive to Muktinath Temple (3,800m), a highly sacred site for both Hindus and Buddhists. Take a holy bath in the 108 water spouts (Muktidhara) and visit the Jwala Mai temple. After Darshan, drive down to Kagbeni or explore the rugged, desert-like landscapes of Lower Mustang. Return to Jomsom for an overnight stay."
+      title: "Bhaktapur Durbar Square & Drive to Nagarkot",
+      image: "https://images.unsplash.com/photo-1585822368481-9b16601815dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Check out from your Kathmandu hotel after breakfast. En route to Nagarkot, stop at the ancient city of Bhaktapur. Explore Bhaktapur Durbar Square, known for its intricate wood carvings, the 55-Window Palace, and Nyatapola Temple. Continue your drive up to the peaceful hill station of Nagarkot (2,100m). Check into your resort and witness a mesmerizing sunset over the Himalayas. Overnight stay in Nagarkot."
     },
     {
       day: 4,
-      title: "Drive Back to Pokhara",
+      title: "Nagarkot Sunrise & Return to Gorakhpur",
       image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      description: "After breakfast, check out and begin your descent back to Pokhara. The return journey offers a different perspective of the majestic Himalayan valleys and waterfalls. Reach Pokhara by late afternoon, check into your hotel, and relax after the adventurous off-road trip. Overnight stay in Pokhara."
-    },
-    {
-      day: 5,
-      title: "Pokhara Local Sightseeing",
-      image: pokhara2,
-      description: "Start the day with a visit to Davis Fall, the mysterious Gupteshwor Mahadev Cave, and the historic Bindabasini Temple. In the evening, enjoy a peaceful boat ride on Phewa Lake and visit the Tal Barahi Temple. You can also explore the Lakeside market for souvenirs. Overnight stay in Pokhara."
-    },
-    {
-      day: 6,
-      title: "Drive Back to Gorakhpur & Departure",
-      image: gorakhpur,
-      description: "After breakfast, check out from your hotel with lifetime memories of the mystical Mustang region. Begin your return journey to the Indian border. Cross Sunauli and proceed to Gorakhpur. You will be dropped off at Gorakhpur Railway Station or Airport for your onward journey."
+      description: "Wake up early before dawn to witness the world-famous Nagarkot sunrise. On a clear day, you can see 8 out of 13 Himalayan ranges, including views of Mt. Everest in the distance. After a hearty breakfast with a mountain view, check out and begin your return journey to the Indian border. Cross Sunauli and proceed to Gorakhpur. You will be dropped off at Gorakhpur Railway Station or Airport."
     }
   ],
   highlights: [
-    "Holy Darshan at the sacred Muktinath Temple (3,800m).",
-    "Thrilling off-road  drive through the Kali Gandaki Gorge.",
-    "Explore the unique, desert-like Tibetan landscapes of Lower Mustang.",
-    "Sightseeing and relaxing boat ride in the scenic city of Pokhara.",
+    "Witness the breathtaking sunrise over the Himalayas from Nagarkot.",
+    "VIP Darshan at the sacred Pashupatinath Temple in Kathmandu.",
+    "Explore the ancient medieval art and architecture of Bhaktapur Durbar Square.",
+    "Scenic drive through the winding mountain roads of Nepal.",
     "Read More"
   ],
   transfer: [
     "Pick-up and drop-off at Gorakhpur Railway Station / Airport.",
-    "Gorakhpur to Pokhara transfers by comfortable AC vehicle.",
-    "Pokhara to Jomsom/Muktinath by specialized  Jeep (Scorpio/Bolero).",
+    "Cross-border permit assistance at the Sunauli border.",
+    "All inter-city transfers and local sightseeing by private AC vehicle.",
     "All toll taxes, parking fees, fuel, and driver allowances are included."
   ],
   sightseeing: [
-    "Mustang: Muktinath Temple, 108 Holy Water Spouts, Kagbeni Village.",
-    "Pokhara: Phewa Lake Boating, Davis Fall, Gupteshwor Cave.",
-    "Scenic drive along the Kali Gandaki River and world's deepest gorge."
+    "Kathmandu: Pashupatinath, Boudhanath, Swayambhunath, Jal Narayan.",
+    "Bhaktapur: Bhaktapur Durbar Square, Nyatapola Temple.",
+    "Nagarkot: Himalayan Sunset and Sunrise viewpoints."
   ],
   accommodation: [
-    "Pokhara: 3 Nights in a 3-star or 4-star premium lake-view hotel.",
-    "Jomsom/Mustang: 2 Nights in the best available standard mountain lodge/hotel."
+    "Kathmandu: 2 Nights in a 3-star or 4-star premium hotel in Thamel/City Center.",
+    "Nagarkot: 1 Night in a Himalayan view premium resort."
   ],
   meals: [
-    "Daily buffet breakfast at all hotels/lodges.",
-    "Dinner is included during the stay in Jomsom.",
+    "Daily buffet breakfast at all hotels/resorts.",
+    "Welcome drink upon arrival at the hotels.",
     "1 bottle of packaged drinking water per person per day during travel."
   ],
   inclusionExclusions: {
     inclusions: [
-      "Accommodation on a twin-sharing basis for 5 Nights.",
-      "Breakfast at all locations and Dinner in Jomsom.",
-      "All transfers as per itinerary (AC vehicle in plains, 4WD in mountains).",
-      "Annapurna Conservation Area Project (ACAP) & TIMS permits.",
+      "Accommodation on a twin-sharing basis for 3 Nights.",
+      "Daily Breakfast at the hotels.",
+      "All transfers and sightseeing by dedicated AC vehicle.",
+      "Nepal border entry tax and road permits for the vehicle.",
       "Experienced Hindi/English speaking driver-cum-guide."
     ],
     exclusions: [
       "Train/Airfare to reach Gorakhpur.",
-      "Lunches across all days and Dinners in Pokhara.",
-      "Monument entrance fees, boating charges, and camera fees.",
-      "Travel insurance or emergency helicopter rescue costs.",
-      "Personal expenses (laundry, tips, telephone, room heaters)."
+      "Lunches and Dinners.",
+      "Monument and Durbar Square entrance fees.",
+      "Travel insurance or emergency medical costs.",
+      "Personal expenses (laundry, tips, telephone, room service)."
     ]
   }
 };
@@ -135,7 +120,7 @@ const GuestCounter = ({ label, subLabel, value, onIncrement, onDecrement, minVal
       <span className="w-3 text-center text-[15px] font-bold text-gray-800">{value}</span>
       <button 
         onClick={onIncrement} 
-        className="w-7 h-7 rounded-full border border-red-200 text-red-500 flex items-center justify-center hover:bg-red-50 transition-colors"
+        className="w-7 h-7   rounded-full border border-red-200 text-red-500 flex items-center justify-center hover:bg-red-50 transition-colors"
       >
         <Plus size={14} strokeWidth={2.5} />
       </button>
@@ -143,7 +128,7 @@ const GuestCounter = ({ label, subLabel, value, onIncrement, onDecrement, minVal
   </div>
 );
 
-const GorakhpurToMustang = () => {
+const GorakhpurToNagarkot = () => {
   const [openDay, setOpenDay] = useState(1);
   const [activeMainTab, setActiveMainTab] = useState('itinerary'); 
   const [activeSubTab, setActiveSubTab] = useState('highlights'); 
@@ -215,8 +200,8 @@ const GorakhpurToMustang = () => {
       
       {/* --- FULL WIDTH TOP BANNER IMAGE --- */}
       <div className="w-full h-[250px] md:h-[350px] lg:h-[400px] mb-6 relative">
-        <img src={packageData.topBannerImage} alt="Gorakhpur to Mustang Banner" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/20"></div>
+        <img src={packageData.topBannerImage} alt="Gorakhpur to Nagarkot Banner" className="w-full h-full object-cover" />
+        {/* <div className="absolute inset-0 bg-black/20"></div> */}
       </div>
 
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -248,52 +233,52 @@ const GorakhpurToMustang = () => {
             {/* Image Gallery */}
             <div className="flex flex-col md:flex-row gap-2 h-[300px] md:h-[400px] mb-6 relative rounded-lg overflow-hidden">
               <div className="absolute top-4 left-4 z-10 bg-white px-3 py-1 rounded text-red-600 text-xs font-bold flex items-center shadow-md">
-                <Users size={14} className="mr-1" /> Adventure Tour
+                <Users size={14} className="mr-1" /> Scenic Retreat
               </div>
               <div className="w-full md:w-2/3 h-full overflow-hidden">
-                <img src={packageData.images[0]} alt="Mustang Landscape" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={packageData.images[0]} alt="Nagarkot Sunrise" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="hidden md:flex flex-col gap-2 w-full md:w-1/3 h-full">
                 <div className="flex-1 overflow-hidden">
-                  <img src={packageData.images[1]} alt="Pokhara Lake" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={packageData.images[1]} alt="Kathmandu Temple" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="flex-1 overflow-hidden relative cursor-pointer group">
-                  <img src={packageData.images[2]} alt="Muktinath Offroad" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={packageData.images[2]} alt="Himalayas" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
               </div>
             </div>
 
             {/* Inclusions Icons */}
-            <div className="flex items-center gap-6 mb-10 pb-6 border-b border-gray-200 overflow-x-auto hide-scrollbar  ">
-              <div className="flex flex-col  cursor-pointer  items-center justify-center min-w-[80px]">
-                <div className="w-14 h-14    rounded-full bg-pink-500 text-white flex items-center justify-center mb-2 shadow-md"><BedDouble size={24} /></div>
+            <div className="flex items-center gap-6 mb-10 pb-6 border-b border-gray-200 overflow-x-auto hide-scrollbar">
+              <div className="flex flex-col items-center cursor-pointer  justify-center min-w-[80px]">
+                <div className="w-14 h-14 rounded-full bg-pink-500 text-white flex items-center justify-center mb-2 shadow-md"><BedDouble size={24} /></div>
                 <span className="text-xs font-semibold text-gray-700">Hotel</span>
               </div>
-              <div className="flex flex-col  cursor-pointer  items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-orange-500 text-white flex items-center justify-center mb-2 shadow-md"><Utensils size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700">Meals</span>
+                <span className="text-xs font-semibold text-gray-700">Breakfast</span>
               </div>
-              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-purple-600 text-white flex items-center justify-center mb-2 shadow-md"><Camera size={24} /></div>
                 <span className="text-xs font-semibold text-gray-700">Sightseeing</span>
               </div>
-              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-yellow-500 text-white flex items-center justify-center mb-2 shadow-md"><Bus size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700"> Transfer</span>
+                <span className="text-xs font-semibold text-gray-700">Transfer</span>
               </div>
-              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-orange-400 text-white flex items-center justify-center mb-2 shadow-md"><Award size={24} /></div>
                 <span className="text-xs font-semibold text-gray-700">Highlights</span>
               </div>
             </div>
 
             {/* Sticky Navigation Tabs */}
-            <div className="sticky top-20 z-30 bg-[#f8f9fa] border-b-2 border-gray-200 flex space-x-6 md:space-x-10 mb-8 pt-2 overflow-x-auto hide-scrollbar">
+            <div className="sticky top-20 z-30   bg-[#f8f9fa] border-b-2 border-gray-200 flex space-x-6 md:space-x-10 mb-8 pt-2 overflow-x-auto hide-scrollbar">
               {['ITINERARY', 'PACKAGE DETAILS', 'CALCULATE PRICE', 'TERMS & CONDITIONS'].map((tab) => (
                 <button 
                   key={tab}
                   onClick={() => setActiveMainTab(tab.toLowerCase())}
-                  className={`pb-4 text-[13px] md:text-[15px] font-bold tracking-wide whitespace-nowrap transition-colors relative ${
+                  className={`pb-4 text-[13px] md:text-[15px] font-bold cursor-pointer tracking-wide whitespace-nowrap transition-colors relative ${
                     activeMainTab === tab.toLowerCase() ? 'text-red-600' : 'text-gray-500 hover:text-gray-800'
                   }`}
                 >
@@ -308,16 +293,16 @@ const GorakhpurToMustang = () => {
             {/* --- TAB CONTENT: ITINERARY --- */}
             {activeMainTab === 'itinerary' && (
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 animate-fadeIn">
-                <h2 className="text-xl font-semibold text-gray-800 mb-6">Itinerary</h2>
+                <h2 className="text-xl font-semibold   text-gray-800 mb-6">Itinerary</h2>
                 <div className="space-y-4">
                   {packageData.itinerary.map((day) => (
                     <div key={day.day} className="border border-gray-200 rounded-lg overflow-hidden bg-white">
-                      <button onClick={() => setOpenDay(openDay === day.day ? null : day.day)} className="w-full flex items-center justify-between p-4 bg-white hover:bg-gray-50 transition-colors">
+                      <button onClick={() => setOpenDay(openDay === day.day ? null : day.day)} className="w-full   flex items-center justify-between p-4 bg-white hover:bg-gray-50 transition-colors">
                         <div className="flex items-center space-x-4">
-                          <div className="border border-red-500 text-red-600 px-3 py-1 rounded-full text-xs font-bold">Day {day.day}</div>
+                          <div className="border border-red-500 text-red-600 px-3 py-1 rounded-full text-xs  cursor-pointer font-bold">Day {day.day}</div>
                           <h3 className="font-semibold text-gray-800 text-base">{day.title}</h3>
                         </div>
-                        <div className="text-gray-400 bg-gray-100 p-1 rounded-full">
+                        <div className="text-gray-400 bg-gray-100 p-1  cursor-pointer rounded-full">
                           {openDay === day.day ? <Minus size={18} /> : <Plus size={18} />}
                         </div>
                       </button>
@@ -371,7 +356,7 @@ const GorakhpurToMustang = () => {
                 
                 {activeSubTab === 'transfer' && (
                   <div className="animate-fadeIn">
-                    <h3 className="text-lg font-bold text-gray-800 mb-4">Transfer Details</h3>
+                    <h3 className="text-lg font-bold  text-gray-800 mb-4">Transfer Details</h3>
                     <ul className="space-y-4">
                       {packageData.transfer.map((item, index) => (
                         <li key={index} className="flex items-start text-sm text-gray-600 font-medium">
@@ -413,7 +398,7 @@ const GorakhpurToMustang = () => {
 
                 {activeSubTab === 'meals' && (
                   <div className="animate-fadeIn">
-                    <h3 className="text-lg font-bold text-gray-800 mb-4">Meals Details</h3>
+                    <h3 className="text-lg font-bold cursor-pointer text-gray-800 mb-4">Meals Details</h3>
                     <ul className="space-y-4">
                       {packageData.meals.map((item, index) => (
                         <li key={index} className="flex items-start text-sm text-gray-600 font-medium">
@@ -457,15 +442,15 @@ const GorakhpurToMustang = () => {
             {/* --- TAB CONTENT: CALCULATE PRICE --- */} 
             {activeMainTab === 'calculate price' && (
               <div className="bg-white p-6 md:p-8 rounded-lg shadow-sm border border-gray-100 animate-fadeIn">
-                <h2 className="text-[22px] font-medium text-gray-800 mb-8">Calculate Price</h2> 
+                <h2 className="text-[22px]   font-medium text-gray-800 mb-8">Calculate Price</h2> 
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Departure City <span className="text-red-500">*</span></label>
                     <select className="w-full border border-gray-300 rounded px-3 py-2.5 text-sm text-gray-700 outline-none focus:border-red-400 bg-white">
                       <option>Gorakhpur</option>
-                      <option>Varanasi</option>
-                      <option>New Delhi</option>
+                      <option>Pune</option>
+                    
                     </select>
                   </div>
                   <div>
@@ -631,7 +616,7 @@ const GorakhpurToMustang = () => {
               <div className="bg-[#f9f9f9] border border-gray-100 rounded-md py-3 px-4 flex items-center justify-center mb-5">
                 <div className="text-left flex items-center text-xs text-gray-600">
                   <div className="w-6 h-6 bg-red-100 text-red-600 rounded mr-2 flex items-center justify-center font-bold text-[10px]">HR</div>
-                  <span><strong className="text-gray-800 text-sm">Earn +850</strong><br/>Holiday Reward points on this booking</span>
+                  <span><strong className="text-gray-800 text-sm">Earn +400</strong><br/>Holiday Reward points on this booking</span>
                   <Info size={14} className="ml-2 text-gray-400" />
                 </div>
               </div>
@@ -669,8 +654,8 @@ const GorakhpurToMustang = () => {
 
               <div className="space-y-3">
                 <div className="border border-dashed border-gray-300 rounded bg-[#fcfcfc] p-3 opacity-60">
-                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> MUSTANG10</div>
-                  <p className="text-[11px] text-gray-500 ml-6">Get 10% off on Muktinath Tours*</p>
+                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> NAGARKOT10</div>
+                  <p className="text-[11px] text-gray-500 ml-6">Get 10% off on Sunrise View Tours*</p>
                 </div>
                 <div className="border border-dashed border-gray-300 rounded bg-[#fcfcfc] p-3 opacity-60">
                   <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> NEPAL26</div>
@@ -693,4 +678,4 @@ const GorakhpurToMustang = () => {
   );
 };
 
-export default GorakhpurToMustang;
+export default GorakhpurToNagarkot;

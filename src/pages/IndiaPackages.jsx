@@ -291,22 +291,21 @@
 
 
 
-
 import React, { useRef, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import pokhara from "../images/pokhara.jpg";
 import chitwan from "../images/chitwan.jpeg";
-import {useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-// Mock data (7 items)
+// 1. MOCK DATA ME 'path' ADD KIYA GAYA HAI 👇
 const destinations = [
-  { id: 1, name: "Kathmandu", country: "Nepal", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-  { id: 2, name: "Kashmir", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-  { id: 3, name: "Pokhara", country: "Nepal", packages: "Starting From ₹...", image: pokhara },
-  { id: 4, name: "Kerala", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-  { id: 5, name: "Chitwan", country: "Nepal", packages: "Starting From ₹...", image: chitwan },
-  { id: 6, name: "Goa", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-  { id: 7, name: "Rajasthan", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" }
+  { id: 1, name: "Kathmandu", country: "Nepal", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/package/kathmandu" },
+  { id: 2, name: "Kashmir", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/kashmir" },
+  { id: 3, name: "Pokhara", country: "Nepal", packages: "Starting From ₹...", image: pokhara, path: "/package/pokhara" }, // Example: link to the page we created
+  { id: 4, name: "Kerala", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/kerala" },
+  { id: 5, name: "Chitwan", country: "Nepal", packages: "Starting From ₹...", image: chitwan, path: "/package/chitwan" }, // Example: link to the page we created
+  { id: 6, name: "Goa", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/goa" },
+  { id: 7, name: "Rajasthan", country: "India", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/rajasthan" }
 ];
 
 // Array ko 3 baar duplicate kiya (Total 21 items) True Infinite Illusion ke liye
@@ -315,9 +314,7 @@ const extendedDestinations = [...destinations, ...destinations, ...destinations]
 const TrendingDestinations = () => {
   const sliderRef = useRef(null);
   const isAutoScrolling = useRef(false);
-
-
-  const navigate=useNavigate();
+  const navigate = useNavigate();
 
   // 1. Initial Load pe slider ko middle set par set karein
   useEffect(() => {
@@ -418,6 +415,7 @@ const TrendingDestinations = () => {
             {extendedDestinations.map((dest, index) => (
               <div 
                 key={`${dest.id}-${index}`}
+                onClick={() => navigate(dest.path)} // 2. ONCLICK EVENT ADD KIYA GAYA HAI 👇
                 className="snap-start flex-shrink-0 w-[240px] md:w-[280px] lg:w-[300px] relative rounded-2xl overflow-hidden cursor-pointer group shadow-sm hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="relative w-full aspect-[4/5]">
@@ -465,7 +463,7 @@ const TrendingDestinations = () => {
 
         {/* View All Packages Button */}
         <div className="flex justify-center mt-6">
-          <button   onClick={()=>{navigate("indianepalallpackages")}} className="px-8 py-3 bg-orange-500 text-white font-bold rounded-full hover:bg-blue-400 active:bg-blue-500 hover:shadow-lg transition-all duration-300">
+          <button onClick={()=>{navigate("/indianepalallpackages")}} className="px-8 py-3 bg-orange-500 text-white font-bold rounded-full hover:bg-blue-400 active:bg-blue-500 hover:shadow-lg transition-all duration-300">
             View All Packages
           </button>
         </div>

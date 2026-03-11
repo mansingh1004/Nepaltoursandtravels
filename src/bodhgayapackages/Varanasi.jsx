@@ -4,107 +4,81 @@ import {
   Minus, Plus, Info, BedDouble, Utensils, 
   Camera, Bus, Award, Users 
 } from 'lucide-react';
-import mustangbanner from "../images/mustangbanner.png"
-import gorakhpur from "../images/gorakhpur.png";
-import muktinath from "../images/muktinath.webp";
-import pokhara from "../images/pokhara.jpg";
-import pokhara2 from "../images/pokhara2.png"
-// --- GORAKHPUR TO MUSTANG MOCK DATA ---
+  import bodhgyabanner from "../images/bodhgyabanner.png";
+  import gangaarti from "../images/gangaarti.png"
+// --- BODH GAYA TO VARANASI MOCK DATA ---
 const packageData = {
-  title: "Mystic Mustang: Gorakhpur to Mustang Tour",
-  rating: 4.9,
-  reviews: 612,
-  duration: "5 Nights 6 Days",
-  route: "Gorakhpur → Pokhara (2N) → Jomsom/Mustang (2N) → Pokhara (1N) → Gorakhpur",
-  originalPrice: 35000,
-  basePriceAdult: 28500,
-  basePriceChildWithBed: 18500,
-  basePriceChildWithoutBed: 12500,
-  topBannerImage: mustangbanner, 
+  title: "Spiritual Circuit: Bodh Gaya to Varanasi Tour",
+  rating: 4.8,
+  reviews: 632,
+  duration: "2Days 1 Nights  ",
+  route: "Bodh Gaya (1N) → Prayagraj/Ayodhya → Varanasi (2N)",
+  originalPrice: 18500,
+  basePriceAdult: 14500,
+  basePriceChildWithBed: 9500,
+  basePriceChildWithoutBed: 6500,
+  topBannerImage: bodhgyabanner, 
   images: [
-    "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Mountain Landscape
-    pokhara, // Pokhara
-    muktinath  // Himalayan Off-road Vibe
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Varanasi Ghats
+    "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Bodh Gaya Temple
+    gangaarti  // Ganga Aarti
   ],
   itinerary: [
     {
       day: 1,
-      title: "Pickup from Gorakhpur & Drive to Pokhara",
-      image: gorakhpur,
-      description: "Arrive at Gorakhpur Railway Station or Airport. Our representative will pick you up and drive towards the Sunauli border. After clearing border formalities, enjoy a scenic drive through winding mountain roads to the beautiful city of Pokhara. Check into your hotel and spend a relaxing evening by Phewa Lake. Overnight stay in Pokhara."
+      title: "Arrival in Bodh Gaya & Temple Tour",
+      image: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "Arrive at Gaya Airport or Railway Station. Our representative will meet you and transfer you to your hotel in Bodh Gaya. After resting, visit the UNESCO World Heritage Mahabodhi Temple, the exact spot where Lord Buddha attained enlightenment under the Bodhi Tree. Later, explore the Great Buddha Statue and various international monasteries. Overnight stay in Bodh Gaya."
     },
     {
       day: 2,
-      title: "Pokhara to Jomsom (Lower Mustang)",
-      image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      description: "After an early breakfast, begin your thrilling off-road journey towards Jomsom in the Mustang region. The drive takes you along the Kali Gandaki River, the deepest gorge in the world, offering spectacular views of Mt. Annapurna and Dhaulagiri. Arrive in Jomsom, check into your hotel, and acclimatize to the high altitude. Overnight stay in Jomsom."
-    },
-    {
-      day: 3,
-      title: "Muktinath Darshan & Explore Mustang",
-      image: muktinath,
-      description: "Drive to Muktinath Temple (3,800m), a highly sacred site for both Hindus and Buddhists. Take a holy bath in the 108 water spouts (Muktidhara) and visit the Jwala Mai temple. After Darshan, drive down to Kagbeni or explore the rugged, desert-like landscapes of Lower Mustang. Return to Jomsom for an overnight stay."
-    },
-    {
-      day: 4,
-      title: "Drive Back to Pokhara",
-      image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      description: "After breakfast, check out and begin your descent back to Pokhara. The return journey offers a different perspective of the majestic Himalayan valleys and waterfalls. Reach Pokhara by late afternoon, check into your hotel, and relax after the adventurous off-road trip. Overnight stay in Pokhara."
-    },
-    {
-      day: 5,
-      title: "Pokhara Local Sightseeing",
-      image: pokhara2,
-      description: "Start the day with a visit to Davis Fall, the mysterious Gupteshwor Mahadev Cave, and the historic Bindabasini Temple. In the evening, enjoy a peaceful boat ride on Phewa Lake and visit the Tal Barahi Temple. You can also explore the Lakeside market for souvenirs. Overnight stay in Pokhara."
-    },
-    {
-      day: 6,
-      title: "Drive Back to Gorakhpur & Departure",
-      image: gorakhpur,
-      description: "After breakfast, check out from your hotel with lifetime memories of the mystical Mustang region. Begin your return journey to the Indian border. Cross Sunauli and proceed to Gorakhpur. You will be dropped off at Gorakhpur Railway Station or Airport for your onward journey."
+      title: "Drive from Bodh Gaya to Varanasi",
+      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      description: "After breakfast, check out and embark on a scenic drive to the holy city of Varanasi (approx. 5-6 hours). Upon arrival, check into your hotel. In the evening, head to the Dashashwamedh Ghat to witness the mesmerizing and grand Ganga Aarti ceremony from the riverbanks or a boat. Overnight stay in Varanasi."
     }
+   
   ],
   highlights: [
-    "Holy Darshan at the sacred Muktinath Temple (3,800m).",
-    "Thrilling off-road  drive through the Kali Gandaki Gorge.",
-    "Explore the unique, desert-like Tibetan landscapes of Lower Mustang.",
-    "Sightseeing and relaxing boat ride in the scenic city of Pokhara.",
-    "Read More"
+    "Meditate under the sacred Bodhi Tree at Mahabodhi Temple.",
+    "Witness the spectacular evening Ganga Aarti at Dashashwamedh Ghat.",
+    "Early morning boat ride on the River Ganges in Varanasi.",
+    "VIP Darshan at the Kashi Vishwanath Jyotirlinga Temple.",
+    "Visit Sarnath, the site of Lord Buddha's first sermon."
   ],
   transfer: [
-    "Pick-up and drop-off at Gorakhpur Railway Station / Airport.",
-    "Gorakhpur to Pokhara transfers by comfortable AC vehicle.",
-    "Pokhara to Jomsom/Muktinath by specialized  Jeep (Scorpio/Bolero).",
-    "All toll taxes, parking fees, fuel, and driver allowances are included."
+    "Pick-up from Gaya Airport / Railway Station.",
+    "Inter-city transfer from Bodh Gaya to Varanasi by private AC vehicle.",
+    "Drop-off at Varanasi Airport / Railway Station.",
+    "All toll taxes, state taxes, parking fees, and driver allowances included."
   ],
   sightseeing: [
-    "Mustang: Muktinath Temple, 108 Holy Water Spouts, Kagbeni Village.",
-    "Pokhara: Phewa Lake Boating, Davis Fall, Gupteshwor Cave.",
-    "Scenic drive along the Kali Gandaki River and world's deepest gorge."
+    "Bodh Gaya: Mahabodhi Temple, Bodhi Tree, Great Buddha Statue, Monasteries.",
+    "Varanasi: Kashi Vishwanath Temple, Ganga Aarti, Morning Boat Ride.",
+    "Sarnath: Dhamek Stupa, Chaukhandi Stupa, Sarnath Museum."
   ],
   accommodation: [
-    "Pokhara: 3 Nights in a 3-star or 4-star premium lake-view hotel.",
-    "Jomsom/Mustang: 2 Nights in the best available standard mountain lodge/hotel."
+    "Bodh Gaya: 1 Night in a 3-star or 4-star premium hotel.",
+    "Varanasi: 2 Nights in a 3-star or 4-star premium hotel (near Ghats/City Center)."
   ],
   meals: [
-    "Daily buffet breakfast at all hotels/lodges.",
-    "Dinner is included during the stay in Jomsom.",
-    "1 bottle of packaged drinking water per person per day during travel."
+    "Daily buffet breakfast at all hotels.",
+    "Welcome drink upon arrival at the hotels.",
+    "1 bottle of packaged drinking water per person per day during sightseeing."
   ],
   inclusionExclusions: {
     inclusions: [
-      "Accommodation on a twin-sharing basis for 5 Nights.",
-      "Breakfast at all locations and Dinner in Jomsom.",
-      "All transfers as per itinerary (AC vehicle in plains, 4WD in mountains).",
-      "Annapurna Conservation Area Project (ACAP) & TIMS permits.",
-      "Experienced Hindi/English speaking driver-cum-guide."
+      "Accommodation on a twin-sharing basis for 3 Nights.",
+      "Daily Breakfast at the hotels.",
+      "All transfers and sightseeing by dedicated AC vehicle.",
+      "Morning boat ride on the River Ganges in Varanasi.",
+      "Experienced local guides in Bodh Gaya and Varanasi."
     ],
     exclusions: [
-      "Train/Airfare to reach Gorakhpur.",
-      "Lunches across all days and Dinners in Pokhara.",
-      "Monument entrance fees, boating charges, and camera fees.",
-      "Travel insurance or emergency helicopter rescue costs.",
-      "Personal expenses (laundry, tips, telephone, room heaters)."
+      "Train/Airfare to reach Gaya or depart from Varanasi.",
+      "Lunches and Dinners.",
+      "Monument and Museum entrance fees.",
+      "Special VIP Darshan tickets at Kashi Vishwanath (if required).",
+      "Personal expenses (laundry, tips, telephone, shopping)."
     ]
   }
 };
@@ -143,7 +117,7 @@ const GuestCounter = ({ label, subLabel, value, onIncrement, onDecrement, minVal
   </div>
 );
 
-const GorakhpurToMustang = () => {
+const BodhGayaToVaranasi = () => {
   const [openDay, setOpenDay] = useState(1);
   const [activeMainTab, setActiveMainTab] = useState('itinerary'); 
   const [activeSubTab, setActiveSubTab] = useState('highlights'); 
@@ -215,7 +189,7 @@ const GorakhpurToMustang = () => {
       
       {/* --- FULL WIDTH TOP BANNER IMAGE --- */}
       <div className="w-full h-[250px] md:h-[350px] lg:h-[400px] mb-6 relative">
-        <img src={packageData.topBannerImage} alt="Gorakhpur to Mustang Banner" className="w-full h-full object-cover" />
+        <img src={packageData.topBannerImage} alt="Bodh Gaya to Varanasi Banner" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
@@ -248,40 +222,40 @@ const GorakhpurToMustang = () => {
             {/* Image Gallery */}
             <div className="flex flex-col md:flex-row gap-2 h-[300px] md:h-[400px] mb-6 relative rounded-lg overflow-hidden">
               <div className="absolute top-4 left-4 z-10 bg-white px-3 py-1 rounded text-red-600 text-xs font-bold flex items-center shadow-md">
-                <Users size={14} className="mr-1" /> Adventure Tour
+                <Users size={14} className="mr-1" /> Spiritual Circuit
               </div>
               <div className="w-full md:w-2/3 h-full overflow-hidden">
-                <img src={packageData.images[0]} alt="Mustang Landscape" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={packageData.images[0]} alt="Varanasi Ghats" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="hidden md:flex flex-col gap-2 w-full md:w-1/3 h-full">
                 <div className="flex-1 overflow-hidden">
-                  <img src={packageData.images[1]} alt="Pokhara Lake" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                  <img src={packageData.images[1]} alt="Bodh Gaya Temple" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="flex-1 overflow-hidden relative cursor-pointer group">
-                  <img src={packageData.images[2]} alt="Muktinath Offroad" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={packageData.images[2]} alt="Ganga Aarti" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
               </div>
             </div>
 
             {/* Inclusions Icons */}
-            <div className="flex items-center gap-6 mb-10 pb-6 border-b border-gray-200 overflow-x-auto hide-scrollbar  ">
-              <div className="flex flex-col  cursor-pointer  items-center justify-center min-w-[80px]">
-                <div className="w-14 h-14    rounded-full bg-pink-500 text-white flex items-center justify-center mb-2 shadow-md"><BedDouble size={24} /></div>
+            <div className="flex items-center gap-6 mb-10 pb-6 border-b border-gray-200 overflow-x-auto hide-scrollbar">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
+                <div className="w-14 h-14 rounded-full bg-pink-500 text-white flex items-center justify-center mb-2 shadow-md"><BedDouble size={24} /></div>
                 <span className="text-xs font-semibold text-gray-700">Hotel</span>
               </div>
-              <div className="flex flex-col  cursor-pointer  items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-orange-500 text-white flex items-center justify-center mb-2 shadow-md"><Utensils size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700">Meals</span>
+                <span className="text-xs font-semibold text-gray-700">Breakfast</span>
               </div>
-              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-purple-600 text-white flex items-center justify-center mb-2 shadow-md"><Camera size={24} /></div>
                 <span className="text-xs font-semibold text-gray-700">Sightseeing</span>
               </div>
-              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-yellow-500 text-white flex items-center justify-center mb-2 shadow-md"><Bus size={24} /></div>
-                <span className="text-xs font-semibold text-gray-700"> Transfer</span>
+                <span className="text-xs font-semibold text-gray-700">Transfer</span>
               </div>
-              <div className="flex flex-col  cursor-pointer items-center justify-center min-w-[80px]">
+              <div className="flex flex-col items-center justify-center min-w-[80px]">
                 <div className="w-14 h-14 rounded-full bg-orange-400 text-white flex items-center justify-center mb-2 shadow-md"><Award size={24} /></div>
                 <span className="text-xs font-semibold text-gray-700">Highlights</span>
               </div>
@@ -293,7 +267,7 @@ const GorakhpurToMustang = () => {
                 <button 
                   key={tab}
                   onClick={() => setActiveMainTab(tab.toLowerCase())}
-                  className={`pb-4 text-[13px] md:text-[15px] font-bold tracking-wide whitespace-nowrap transition-colors relative ${
+                  className={`pb-4 text-[13px] md:text-[15px] font-bold cursor-pointer tracking-wide whitespace-nowrap transition-colors relative ${
                     activeMainTab === tab.toLowerCase() ? 'text-red-600' : 'text-gray-500 hover:text-gray-800'
                   }`}
                 >
@@ -314,10 +288,10 @@ const GorakhpurToMustang = () => {
                     <div key={day.day} className="border border-gray-200 rounded-lg overflow-hidden bg-white">
                       <button onClick={() => setOpenDay(openDay === day.day ? null : day.day)} className="w-full flex items-center justify-between p-4 bg-white hover:bg-gray-50 transition-colors">
                         <div className="flex items-center space-x-4">
-                          <div className="border border-red-500 text-red-600 px-3 py-1 rounded-full text-xs font-bold">Day {day.day}</div>
+                          <div className="border border-red-500 text-red-600 px-3 py-1 rounded-full text-xs cursor-pointer font-bold">Day {day.day}</div>
                           <h3 className="font-semibold text-gray-800 text-base">{day.title}</h3>
                         </div>
-                        <div className="text-gray-400 bg-gray-100 p-1 rounded-full">
+                        <div className="text-gray-400 bg-gray-100 p-1 cursor-pointer rounded-full">
                           {openDay === day.day ? <Minus size={18} /> : <Plus size={18} />}
                         </div>
                       </button>
@@ -413,7 +387,7 @@ const GorakhpurToMustang = () => {
 
                 {activeSubTab === 'meals' && (
                   <div className="animate-fadeIn">
-                    <h3 className="text-lg font-bold text-gray-800 mb-4">Meals Details</h3>
+                    <h3 className="text-lg font-bold cursor-pointer text-gray-800 mb-4">Meals Details</h3>
                     <ul className="space-y-4">
                       {packageData.meals.map((item, index) => (
                         <li key={index} className="flex items-start text-sm text-gray-600 font-medium">
@@ -463,9 +437,9 @@ const GorakhpurToMustang = () => {
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">Departure City <span className="text-red-500">*</span></label>
                     <select className="w-full border border-gray-300 rounded px-3 py-2.5 text-sm text-gray-700 outline-none focus:border-red-400 bg-white">
-                      <option>Gorakhpur</option>
+                      <option>Bodh Gaya (Gaya)</option>
+                      <option>Patna</option>
                       <option>Varanasi</option>
-                      <option>New Delhi</option>
                     </select>
                   </div>
                   <div>
@@ -631,7 +605,7 @@ const GorakhpurToMustang = () => {
               <div className="bg-[#f9f9f9] border border-gray-100 rounded-md py-3 px-4 flex items-center justify-center mb-5">
                 <div className="text-left flex items-center text-xs text-gray-600">
                   <div className="w-6 h-6 bg-red-100 text-red-600 rounded mr-2 flex items-center justify-center font-bold text-[10px]">HR</div>
-                  <span><strong className="text-gray-800 text-sm">Earn +850</strong><br/>Holiday Reward points on this booking</span>
+                  <span><strong className="text-gray-800 text-sm">Earn +400</strong><br/>Holiday Reward points on this booking</span>
                   <Info size={14} className="ml-2 text-gray-400" />
                 </div>
               </div>
@@ -669,12 +643,12 @@ const GorakhpurToMustang = () => {
 
               <div className="space-y-3">
                 <div className="border border-dashed border-gray-300 rounded bg-[#fcfcfc] p-3 opacity-60">
-                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> MUSTANG10</div>
-                  <p className="text-[11px] text-gray-500 ml-6">Get 10% off on Muktinath Tours*</p>
+                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> SPIRITUAL10</div>
+                  <p className="text-[11px] text-gray-500 ml-6">Get 10% off on Spiritual Circuit Tours*</p>
                 </div>
                 <div className="border border-dashed border-gray-300 rounded bg-[#fcfcfc] p-3 opacity-60">
-                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> NEPAL26</div>
-                  <p className="text-[11px] text-gray-500 ml-6">Upto ₹5000 off on Credit Cards*</p>
+                  <div className="flex items-center text-sm font-semibold text-gray-600 mb-1"><input type="radio" disabled className="mr-2" /> ICICI26</div>
+                  <p className="text-[11px] text-gray-500 ml-6">Upto ₹3000 off on ICICI Credit Cards*</p>
                 </div>
               </div>
             </div>
@@ -693,4 +667,4 @@ const GorakhpurToMustang = () => {
   );
 };
 
-export default GorakhpurToMustang;
+export default BodhGayaToVaranasi;

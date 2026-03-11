@@ -16,7 +16,7 @@ const packageData = {
   title: "Scenic Retreat: Gorakhpur to Pokhara Tour",
   rating: 4.8,
   reviews: 856,
-  duration: "3 Nights 4 Days",
+  duration: "4 Days/ 3 Nights ",
   route: "Gorakhpur → Lumbini → Pokhara (3N) → Gorakhpur",
   originalPrice: 18500,
   basePriceAdult: 14500,

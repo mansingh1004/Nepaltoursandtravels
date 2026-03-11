@@ -9,13 +9,14 @@ import nagarkot from "../images/nagarkot.jpeg";
 import mustang from "../images/mustang.jpeg";     
 import patan from "../images/patan.jpeg";         
 import { useNavigate } from 'react-router-dom';
-// Mock data for exactly 5 Nepal destinations
+
+// 1. MOCK DATA ME 'path' ADD KIYA GAYA HAI 👇
 const destinations = [
-  { id: 1, name: "Kathmandu", region: "Kathmandu Valley", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-  { id: 2, name: "Pokhara", region: "Gandaki Province", packages: "Starting From ₹...", image: pokhara },
-  { id: 3, name: "Everest Base Camp", region: "Khumbu Region", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-  { id: 4, name: "Chitwan", region: "Terai Region", packages: "Starting From ₹...", image: chitwan },
-  { id: 5, name: "Lumbini", region: "Lumbini Province", packages: "Starting From ₹...", image: lumbini }
+  { id: 1, name: "Kathmandu", region: "Kathmandu Valley", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/package/kathmandu" },
+  { id: 2, name: "Pokhara", region: "Gandaki Province", packages: "Starting From ₹...", image: pokhara, path: "/package/pokhara" },
+  { id: 3, name: "Everest Base Camp", region: "Khumbu Region", packages: "Starting From ₹...", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", path: "/package/basecamp" },
+  { id: 4, name: "Chitwan", region: "Terai Region", packages: "Starting From ₹...", image: chitwan, path: "/package/chitwan" },
+  { id: 5, name: "Lumbini", region: "Lumbini Province", packages: "Starting From ₹...", image: lumbini, path: "/package/lumbini" }
 ];
 
 // Array ko 3 baar duplicate kiya true infinite scroll illusion ke liye
@@ -26,7 +27,7 @@ const MIDDLE_START_INDEX = destinations.length;  // 5
 const TrendingNepalDestinations = () => {
   const sliderRef = useRef(null);
   
-  const navigate =useNavigate()
+  const navigate = useNavigate();
   // Naya State-driven Approach
   const [currentIndex, setCurrentIndex] = useState(MIDDLE_START_INDEX);
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -41,7 +42,6 @@ const TrendingNepalDestinations = () => {
     const slider = sliderRef.current;
     if (slider && slider.children[index]) {
       const card = slider.children[index];
-      const gapOffset = window.innerWidth >= 768 ? 24 : 16; 
       
       // Calculate position exactly matching the start of the targeted card
       slider.scrollTo({
@@ -170,6 +170,7 @@ const TrendingNepalDestinations = () => {
             {extendedDestinations.map((dest, index) => (
               <div 
                 key={`${dest.id}-${index}`}
+                onClick={() => navigate(dest.path)} // 2. ONCLICK EVENT ADD KIYA GAYA HAI 👇
                 className="snap-start flex-shrink-0 w-[240px] md:w-[280px] lg:w-[300px] relative rounded-2xl overflow-hidden cursor-pointer group shadow-sm hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="relative w-full aspect-[4/5]">
@@ -214,7 +215,7 @@ const TrendingNepalDestinations = () => {
 
         {/* View All Packages Button */}
         <div className="flex justify-center mt-6">
-          <button  onClick={()=>{navigate("nepalallpackages")}}    className="px-8 py-3 bg-orange-500 text-white font-bold rounded-full hover:bg-blue-400 active:bg-blue-500 hover:shadow-lg transition-all duration-300">
+          <button onClick={()=>{navigate("/nepalallpackages")}} className="px-8 py-3 bg-orange-500 text-white font-bold rounded-full hover:bg-blue-400 active:bg-blue-500 hover:shadow-lg transition-all duration-300">
             View All Packages
           </button>
         </div>
