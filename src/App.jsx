@@ -39,6 +39,7 @@ import KashiPrayagrajTour from "./kashipackages/kashi-prayagraj-tour"
 import KashiGorakhpurTour from "./kashipackages/kashi-gorakhpur-tour"
 import KashiLucknowTour from "./kashipackages/kashi-lucknow-tour"
 import KashiChitrakootTour from "./kashipackages/kashi-chitrakoot-tour"
+import KashiNepalTour from "./kashipackages/kashi-nepal-border"
 
 
 import Pokhara from "./nepalpackages/Pokhara"
@@ -51,6 +52,13 @@ import  BaseCamp from "./nepalpackages/BaseCamp";
 
 import Varanasi from "./bodhgayapackages/Varanasi"
 import BothgayaRajgir from "./bodhgayapackages/Bodhgya-Rajgir"
+
+import PrayagrajAyodhyaTour from "./PrayagrajPackages/prayagraj-ayodhya"
+import PrayagrajKashiTour from "./PrayagrajPackages/prayagraj-kashi"
+import PrayagrajChitrakootTour from "./PrayagrajPackages/prayagraj-chitrakoot"
+import PrayagrajGorakhpurTour from "./PrayagrajPackages/prayagraj-gorakhpur"
+import PrayagrajNepalTour from "./PrayagrajPackages/prayagraj-nepal-border"
+import PrayagrajLucknowTour from "./PrayagrajPackages/prayagraj-lucknow"
 
 
 const App=()=>{
@@ -108,6 +116,14 @@ const App=()=>{
       <Route path="package/kashi-gorakhpur-tour" element={<KashiGorakhpurTour/>}/>
       <Route path="package/kashi-lucknow-tour" element={<KashiLucknowTour/>}/>
       <Route path="package/kashi-chitrakoot-tour" element={<KashiChitrakootTour/>}/>
+      <Route path="package/kashi-nepal-border" element={<KashiNepalTour/>}/>
+                          {/* Prayagraj packages */}
+      <Route path="package/prayagraj-ayodhya" element={<PrayagrajAyodhyaTour/>}/> 
+      <Route path="package/prayagraj-kashi" element={<PrayagrajKashiTour/>}/> 
+      <Route path="package/prayagraj-chitrakoot" element={<PrayagrajChitrakootTour/>}/> 
+      <Route path="package/prayagraj-gorakhpur" element={<PrayagrajGorakhpurTour/>}/> 
+      <Route path="package/prayagraj-nepal-border" element={<PrayagrajNepalTour/>}/>
+      <Route path="package/prayagraj-lucknow" element={<PrayagrajLucknowTour/>}/>              
 
       {/* Bodhgayapackages */}
       <Route path="package/bothgaya-varanasi" element={<Varanasi/>}/>

@@ -10,6 +10,7 @@ import NepalBorder from "../images/GettyImages-1439040510.webp"
 import Lucknow from "../images/luknow.jpg"
 
 
+import { Link } from 'react-router-dom';
 
 import { 
   MapPin, Clock, Plane, BedDouble, Utensils, Camera, 
@@ -47,7 +48,7 @@ const packagesData = [
     region: "Temple Circuit",
     image: Ayodhya,
     destinations: "Sangam • Ayodhya • Ram Mandir",
-    duration: "2 Days / 1 Night",
+    duration: "3 Days / 2 Night",
     daysValue: 2, 
     originalPrice: "₹....",
     discountedPrice: "₹....",
@@ -81,7 +82,7 @@ const packagesData = [
     region: "Ramayana Path",
     image: Chitrakoot,
     destinations: "Sangam • Gupt Godavari • Ram Ghat",
-    duration: "2 Days / 1 Night",
+    duration: "3 Days / 2 Night",
     daysValue: 2,
     originalPrice: "₹....",
     discountedPrice: "₹....",
@@ -205,6 +206,10 @@ const PrayagrajTourPackages = () => {
     if (text.includes('hotel')) return <BedDouble size={16} />;
     if (text.includes('meal') || text.includes('breakfast')) return <Utensils size={16} />;
     return <Camera size={16} />;
+  };
+
+  const createSlug = (name) => {
+    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-');
   };
 
   return (
@@ -336,9 +341,13 @@ const PrayagrajTourPackages = () => {
                           <span className="text-xs text-gray-500 ml-1 font-medium">/ person</span>
                         </div>
                       </div>
-                      <button className="bg-orange-500 hover:bg-indigo-950 text-white px-5 py-2.5 rounded-xl font-bold transition-all shadow-lg text-sm flex items-center">
-                        View Details <ChevronRight size={16} className="ml-1" />
-                      </button>
+                      <Link 
+                        to={`/package/${createSlug(pkg.title)}`}
+                          className="bg-orange-500 hover:bg-indigo-950 text-white px-5 py-2.5 rounded-xl font-bold transition-colors duration-300 shadow-lg shadow-orange-500/20 text-sm flex items-center"
+                        >
+                        View Details
+                      <ChevronRight size={16} className="ml-1" />
+                      </Link>
                     </div>
                   </div>
                 </div>
