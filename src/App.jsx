@@ -78,6 +78,11 @@ import GorakhpurToBalmikiNagar from "./schooltrippackage/GorakhpurToBalmikiNagar
 import GorakhpurToKushinagar from "./schooltrippackage/GorakhpurToKushinagar";
 import GorakhpurToKAyodhya from "./schooltrippackage/GorakhpurToAyodhya"
 
+import ParoTaktsangTour from "./bhutanpackages/paro-taktsang-experience"
+import PunakhaHeritageTour from "./bhutanpackages/punakha-heritage-tour"
+import ThimphuCapitalTour from "./bhutanpackages/thimphu-capital-heart"
+import PhobjikhaValleyTour from "./bhutanpackages/phobjikha-scenic-valley"
+
 const App=()=>{
   return(
     <>
@@ -159,11 +164,25 @@ const App=()=>{
           <Route path="package/gorakhpur-prayagraj" element={<GorakhpurToPrayagraj/>}/> 
             <Route path="package/gorakhpur-lucknow" element={<GorakhpurToLucknow/>}/> 
 
+
 {/* School Trip Packages  */}
 <Route path="package/gorakhpur-lumbini" element={<GorakhpurToLumbini/>}/> 
 <Route path="package/balmikinagar" element={<GorakhpurToBalmikiNagar/>}/> 
 <Route path="package/kushinagar" element={<GorakhpurToKushinagar/>}/>
 <Route path="package/ayodhya" element={<GorakhpurToKAyodhya/>}/>
+
+         {/* Bhutan packages */}
+
+         <Route path="package/paro-taktsang-experience" element={<ParoTaktsangTour/>}/>
+         <Route path="package/punakha-heritage-tour" element={<PunakhaHeritageTour/>}/>
+         <Route path="package/thimphu-capital-heart" element={<ThimphuCapitalTour/>}/>
+         <Route path="package/phobjikha-scenic-valley" element={<PhobjikhaValleyTour/>}/>
+
+
+
+
+
+
 
 
 
