@@ -70,6 +70,11 @@ import GorakhpurToAyodhya from "./gorakhpurpackages/GorakhpurToAyodhya"
 import GorakhpurToKhushinagar from "./gorakhpurpackages/GorakhpurToKushinagar";
 import GorakhpurToNepalBoder from "./gorakhpurpackages/GorakhpurToNepalBorder"
 
+import ParoTaktsangTour from "./bhutanpackages/paro-taktsang-experience"
+import PunakhaHeritageTour from "./bhutanpackages/punakha-heritage-tour"
+import ThimphuCapitalTour from "./bhutanpackages/thimphu-capital-heart"
+import PhobjikhaValleyTour from "./bhutanpackages/phobjikha-scenic-valley.JSX"
+
 const App=()=>{
   return(
     <>
@@ -148,6 +153,13 @@ const App=()=>{
         <Route path="package/gorakhpur-ayodhya" element={<GorakhpurToAyodhya/>}/> 
          <Route path="package/gorakhpur-khushinagar" element={<GorakhpurToKhushinagar/>}/> 
          <Route path="package/gorakhpur-nepalborder" element={<GorakhpurToNepalBoder/>}/> 
+
+         {/* Bhutan packages */}
+
+         <Route path="package/paro-taktsang-experience" element={<ParoTaktsangTour/>}/>
+         <Route path="package/punakha-heritage-tour" element={<PunakhaHeritageTour/>}/>
+         <Route path="package/thimphu-capital-heart" element={<ThimphuCapitalTour/>}/>
+         <Route path="package/phobjikha-scenic-valley" element={<PhobjikhaValleyTour/>}/>
 
 
 
