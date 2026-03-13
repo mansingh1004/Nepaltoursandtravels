@@ -73,7 +73,7 @@ import GorakhpurToNepalBoder from "./gorakhpurpackages/GorakhpurToNepalBorder"
 import ParoTaktsangTour from "./bhutanpackages/paro-taktsang-experience"
 import PunakhaHeritageTour from "./bhutanpackages/punakha-heritage-tour"
 import ThimphuCapitalTour from "./bhutanpackages/thimphu-capital-heart"
-import PhobjikhaValleyTour from "./bhutanpackages/phobjikha-scenic-valley.JSX"
+import PhobjikhaValleyTour from "./bhutanpackages/phobjikha-scenic-valley"
 
 const App=()=>{
   return(
