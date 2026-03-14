@@ -17,10 +17,10 @@ const packageData = {
   reviews: 420,
   duration: "3 Nights 4 Days",
   route: "Ayodhya (2N) → Chitrakoot (1N) → Local Sightseeing",
-  originalPrice: 22500,
-  basePriceAdult: 18500,
-  basePriceChildWithBed: 12500,
-  basePriceChildWithoutBed: 8500,
+  originalPrice: ".....",
+  basePriceAdult: "......",
+  basePriceChildWithBed: "......",
+  basePriceChildWithoutBed: "....",
   // High-quality spiritual destination images
   topBannerImage: chitrakootbanner, 
   images: [

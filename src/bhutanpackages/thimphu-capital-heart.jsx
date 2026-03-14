@@ -15,10 +15,10 @@ const packageData = {
   reviews: 285,
   duration: "2 Nights 3 Days",
   route: "Paro Airport → Thimphu Valley → Buddha Point → Tashichho Dzong",
-  originalPrice: 32000,
-  basePriceAdult: 26500,
-  basePriceChildWithBed: 18500,
-  basePriceChildWithoutBed: 12500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "......",
   // High-quality banner representing the Thimphu Skyline or Buddha Point
   topBannerImage: "https://nepaltoursandtravels.com/wp-content/uploads/2025/12/Thimphu.jpg", 
   images: [

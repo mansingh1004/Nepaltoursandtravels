@@ -17,10 +17,10 @@ const packageData = {
   reviews: 320,
   duration: "3 Nights 4 Days",
   route: "Paro Airport → Tiger's Nest → Paro Valley → National Museum",
-  originalPrice: 45000,
-  basePriceAdult: 38500,
-  basePriceChildWithBed: 28000,
-  basePriceChildWithoutBed: 18000,
+  originalPrice: "....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "......",
+  basePriceChildWithoutBed: ".....",
   // High-quality banner representing the Paro Taktsang (Tiger's Nest)
   topBannerImage: ParoTaktsang, 
   images: [

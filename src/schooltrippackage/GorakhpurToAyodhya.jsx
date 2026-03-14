@@ -15,10 +15,10 @@ const packageData = {
   reviews: 450,
   duration: "1 Night 2 Days",
   route: "Gorakhpur (School) → Ayodhya (1N) → Gorakhpur Return",
-  originalPrice: 5500,
-  basePriceAdult: 3500, // For Teachers/Staff
-  basePriceChildWithBed: 2500, // For Students
-  basePriceChildWithoutBed: 1800,
+  originalPrice: "....",
+  basePriceAdult: ".....", // For Teachers/Staff
+  basePriceChildWithBed: ".....", // For Students
+  basePriceChildWithoutBed: "....",
   topBannerImage:ayodhyadarshan, 
   images: [
     RamMandir, // Temple Architecture

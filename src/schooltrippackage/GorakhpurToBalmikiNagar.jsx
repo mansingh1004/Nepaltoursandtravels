@@ -12,10 +12,10 @@ const packageData = {
   reviews: 245,
   duration: "1 Night 2 Days",
   route: "Gorakhpur (School) → Balmiki Nagar (1N) → Gorakhpur Return",
-  originalPrice: 5500,
-  basePriceAdult: 4000, // For Teachers/Staff
-  basePriceChildWithBed: 3000, // For Students
-  basePriceChildWithoutBed: 2000,
+  originalPrice: "....",
+  basePriceAdult: "....", // For Teachers/Staff
+  basePriceChildWithBed: "....", // For Students
+  basePriceChildWithoutBed: "....",
   topBannerImage: balmikbanner, 
   images: [
     "https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Jungle/Forest

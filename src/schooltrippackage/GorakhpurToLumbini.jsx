@@ -12,10 +12,10 @@ const packageData = {
   reviews: 312,
   duration: "1 Night 2 Days",
   route: "Gorakhpur (School) → Lumbini (1N) → Gorakhpur Return",
-  originalPrice: 6500,
-  basePriceAdult: 4500, // For Teachers/Staff/Senior Students
-  basePriceChildWithBed: 3500, // For Students
-  basePriceChildWithoutBed: 2500,
+  originalPrice: "....",
+  basePriceAdult: ".....", // For Teachers/Staff/Senior Students
+  basePriceChildWithBed: "....", // For Students
+  basePriceChildWithoutBed: "....",
   topBannerImage: "https://images.unsplash.com/photo-1571295744883-9b8830182606?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=400&q=80", 
   images: [
     "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Monastic Zone

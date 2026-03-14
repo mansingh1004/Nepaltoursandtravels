@@ -20,10 +20,10 @@ const packageData = {
   reviews: 510,
   duration: "4 Nights 5 Days",
   route: "Varanasi (2N) → Gorakhpur (1N) → Sonauli (1N) → Lumbini",
-  originalPrice: 26500,
-  basePriceAdult: 21500,
-  basePriceChildWithBed: 14500,
-  basePriceChildWithoutBed: 10500,
+  originalPrice: ".....",
+  basePriceAdult: "....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the international border link
   topBannerImage: nepalbanners, 
   images: [

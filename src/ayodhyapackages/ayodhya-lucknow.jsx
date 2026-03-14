@@ -16,10 +16,10 @@ const packageData = {
   reviews: 580,
   duration: "2 Nights 3 Days",
   route: "Ayodhya (1N) → Lucknow (1N) → Local Sightseeing",
-  originalPrice: 15500,
-  basePriceAdult: 12500,
-  basePriceChildWithBed: 8500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   topBannerImage: Lucknow, 
   images: [
     Lucknow, // Bara Imambara

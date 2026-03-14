@@ -17,10 +17,10 @@ const packageData = {
   reviews: 640,
   duration: "3 Nights 4 Days",
   route: "Ayodhya → Gorakhpur → Nepal Border (Sonauli) → Lumbini",
-  originalPrice: 24500,
-  basePriceAdult: 19500,
-  basePriceChildWithBed: 13500,
-  basePriceChildWithoutBed: 9500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Nepal border/Lumbini region
   topBannerImage: nepalbanners, 
   images: [

@@ -16,10 +16,10 @@ const packageData = {
   reviews: 890,
   duration: "2 Nights 3 Days",
   route: "Prayagraj (1N) → Ayodhya (1N) → Ram Mandir",
-  originalPrice: 18500,
-  basePriceAdult: 14500,
-  basePriceChildWithBed: 9500,
-  basePriceChildWithoutBed: 6500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Prayagraj to Ayodhya route
   topBannerImage: prayagraj, 
   images: [

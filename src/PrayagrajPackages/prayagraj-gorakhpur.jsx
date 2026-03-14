@@ -18,10 +18,10 @@ const packageData = {
   reviews: 680,
   duration: "3 Nights 4 Days",
   route: "Prayagraj (1N) → Ayodhya (1N) → Gorakhpur (1N)",
-  originalPrice: 19500,
-  basePriceAdult: 14900,
-  basePriceChildWithBed: 10500,
-  basePriceChildWithoutBed: 7500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the heritage link between Prayagraj and Gorakhpur
   topBannerImage: Gorakhpur, 
   images: [

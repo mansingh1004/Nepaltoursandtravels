@@ -18,10 +18,10 @@ const packageData = {
   reviews: 580,
   duration: "4 Nights 5 Days",
   route: "Prayagraj (1N) → Ayodhya (1N) → Gorakhpur (1N) → Sonauli (1N)",
-  originalPrice: 28500,
-  basePriceAdult: 22500,
-  basePriceChildWithBed: 15500,
-  basePriceChildWithoutBed: 10500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: ".....",
   // High-quality banner representing the international cross-border route
   topBannerImage: nepalbanners, 
   images: [

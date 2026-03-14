@@ -15,10 +15,10 @@ const packageData = {
   reviews: 420,
   duration: "2 Nights 3 Days",
   route: "Prayagraj (1N) → Lucknow (1N) → Nawab Heritage",
-  originalPrice: 16500,
-  basePriceAdult: 12500,
-  basePriceChildWithBed: 8500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Prayagraj to Lucknow link
   topBannerImage: Lucknow, 
   images: [

@@ -18,10 +18,10 @@ const packageData = {
   reviews: 480,
   duration: "3 Nights 4 Days",
   route: "Varanasi (2N) → Chitrakoot (1N) → Ram Ghat",
-  originalPrice: 21500,
-  basePriceAdult: 17500,
-  basePriceChildWithBed: 11500,
-  basePriceChildWithoutBed: 8500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Kashi to Chitrakoot route
   topBannerImage: chitrakootbanner, 
   images: [

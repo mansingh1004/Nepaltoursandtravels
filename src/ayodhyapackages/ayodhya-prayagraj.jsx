@@ -16,10 +16,10 @@ const packageData = {
   reviews: 720,
   duration: "2 Nights 3 Days",
   route: "Ayodhya (1N) → Prayagraj (1N) → Triveni Sangam",
-  originalPrice: 18500,
-  basePriceAdult: 14500,
-  basePriceChildWithBed: 9500,
-  basePriceChildWithoutBed: 6500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   // Using high-quality spiritual destination images
   topBannerImage: prayagraj, 
   images: [

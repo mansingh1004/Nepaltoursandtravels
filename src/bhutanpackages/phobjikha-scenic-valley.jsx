@@ -23,10 +23,10 @@ const packageData = {
   reviews: 180,
   duration: "9 Nights 10 Days",
   route: "Paro → Thimphu → Punakha → Phobjikha → Gangtey",
-  originalPrice: 85000,
-  basePriceAdult: 72500,
-  basePriceChildWithBed: 55000,
-  basePriceChildWithoutBed: 35000,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: ".....",
   // High-quality banner representing the vast Phobjikha Valley
   topBannerImage: PhobjikhaValley, 
   images: [

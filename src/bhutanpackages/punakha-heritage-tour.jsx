@@ -17,10 +17,10 @@ const packageData = {
   reviews: 215,
   duration: "4 Nights 5 Days",
   route: "Paro → Thimphu → Punakha Dzong → Suspension Bridge",
-  originalPrice: 52000,
-  basePriceAdult: 44500,
-  basePriceChildWithBed: 32000,
-  basePriceChildWithoutBed: 22000,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: ".....",
   // High-quality banner representing the Punakha Dzong
   topBannerImage: "https://nepaltoursandtravels.com/wp-content/uploads/2025/12/palace-2725141_640.jpg", 
   images: [

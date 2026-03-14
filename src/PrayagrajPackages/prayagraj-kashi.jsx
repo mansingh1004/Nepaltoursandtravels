@@ -16,10 +16,10 @@ const packageData = {
   reviews: 920,
   duration: "2 Nights 3 Days",
   route: "Prayagraj (1N) → Varanasi (1N) → Ganga Aarti",
-  originalPrice: 18000,
-  basePriceAdult: 13900,
-  basePriceChildWithBed: 9900,
-  basePriceChildWithoutBed: 6900,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Sangam to Kashi route
   topBannerImage: kashipage, 
   images: [

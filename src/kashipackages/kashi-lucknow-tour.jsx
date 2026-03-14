@@ -17,10 +17,10 @@ const packageData = {
   reviews: 540,
   duration: "2 Nights 3 Days",
   route: "Varanasi (1N) → Lucknow (1N) → Bara Imambara",
-  originalPrice: 16500,
-  basePriceAdult: 12500,
-  basePriceChildWithBed: 8500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Kashi to Lucknow link
   topBannerImage: Lucknow, 
   images: [

@@ -17,10 +17,10 @@ const packageData = {
   reviews: 980,
   duration: "2 Nights 3 Days",
   route: "Varanasi (1N) → Prayagraj (1N) → Triveni Sangam",
-  originalPrice: 17500,
-  basePriceAdult: 13500,
-  basePriceChildWithBed: 9500,
-  basePriceChildWithoutBed: 6500,
+  originalPrice: "....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner image for the Kashi to Prayagraj route
   topBannerImage: TriveniSangam, 
   images: [

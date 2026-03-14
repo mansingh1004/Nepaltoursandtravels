@@ -16,10 +16,10 @@ const packageData = {
   reviews: 620,
   duration: "2 Nights 3 Days",
   route: "Varanasi (1N) → Gorakhpur (1N) → Gorakhnath Temple → Maghar",
-  originalPrice: 15500,
-  basePriceAdult: 11500,
-  basePriceChildWithBed: 7500,
-  basePriceChildWithoutBed: 4500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Kashi to Gorakhpur heritage link
   topBannerImage: VisitGorakhnathTemple, 
   images: [

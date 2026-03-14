@@ -14,10 +14,10 @@ const packageData = {
   reviews: 1120,
   duration: "2 Nights 3 Days",
   route: "Varanasi (1N) → Ayodhya (1N) → Ram Mandir",
-  originalPrice: 19500,
-  basePriceAdult: 15500,
-  basePriceChildWithBed: 10500,
-  basePriceChildWithoutBed: 7500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: ".....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the Kashi to Ayodhya Temple Circuit
   topBannerImage: KashiVaranasi, 
   images: [

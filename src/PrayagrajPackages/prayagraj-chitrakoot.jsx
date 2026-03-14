@@ -17,10 +17,10 @@ const packageData = {
   reviews: 640,
   duration: "2 Nights 3 Days",
   route: "Prayagraj (1N) → Chitrakoot (1N) → Gupt Godavari",
-  originalPrice: 17500,
-  basePriceAdult: 12900,
-  basePriceChildWithBed: 8500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: ".....",
+  basePriceAdult: ".....",
+  basePriceChildWithBed: "....",
+  basePriceChildWithoutBed: "....",
   // High-quality banner representing the spiritual transition to the forest circuit
   topBannerImage: Chitrkotbanner, 
   images: [
