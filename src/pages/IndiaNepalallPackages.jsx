@@ -7,6 +7,8 @@ import {
  import kathmandu from "../images/kathmandu.jpg"
  import prayagraj from "../images/prayagraj.png"
  import chitwan  from "../images/chitwan.jpeg"
+
+ import { Link } from 'react-router-dom';
 // 1. Premium Banner Carousel Data (SOTC / Thomas Cook Style)
 const bannerData = [
   { 
@@ -39,7 +41,7 @@ const bannerData = [
 const packagesData = [
   {
     id: 1,
-    title: " Kathmandu Valley",
+    title: " Kathmandu",
     country: "Nepal",
     area: "Kathmandu Valley",
     image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -57,7 +59,7 @@ const packagesData = [
   },
   {
     id: 2,
-    title: " Base Camp Trek",
+    title: " BaseCamp ",
     country: "Nepal",
     area: "Everest Region",
     image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -75,7 +77,7 @@ const packagesData = [
   },
   {
     id: 3,
-    title: " Kashi & Ayodhya",
+    title: "Ayodhya",
     country: "India",
     area: "Uttar Pradesh",
     image: "https://images.unsplash.com/photo-1561359313-0639aad49ca6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -93,7 +95,7 @@ const packagesData = [
   },
   {
     id: 4,
-    title: " Prayagraj Darshan",
+    title: " gorakhpur → prayagraj",
     country: "India",
     area: "Uttar Pradesh",
     image: prayagraj,
@@ -111,12 +113,12 @@ const packagesData = [
   },
   {
     id: 5,
-    title: "Chitwan Wildlife Safari",
+    title: "Chitwan ",
     country: "Nepal",
     area: "Terai Region",
     image: chitwan,
-    destinations: "Chitwan National Park",
-    duration: "... Days / ... Nights",
+    destinations: "Gorakhpur → Sunauli → Chitwan National Park (3N) → Gorakhpur",
+    duration: "4 Days / 3 Nights",
     daysValue: 3,
     originalPrice: "₹...",
     discountedPrice: "₹...",
@@ -205,6 +207,16 @@ const PackagesPage = () => {
     if (text.includes('meal') || text.includes('breakfast') || text.includes('dinner') || text.includes('darshan')) return <Utensils size={16} />;
     return <Camera size={16} />;
   };
+
+
+
+
+
+   // 2. Helper function to create URL slug from Title
+  const createSlug = (name) => {
+    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-');
+  };
+
 
   return (
     <div className="w-full font-sans bg-gray-50 min-h-screen pb-16">
@@ -461,10 +473,13 @@ const PackagesPage = () => {
                           <span className="text-xs text-gray-500 ml-1 font-medium">/ person</span>
                         </div>
                       </div>
-                      <button className="bg-orange-500 hover:bg-indigo-950 text-white px-5 py-2.5 rounded-xl font-bold transition-colors duration-300 shadow-lg shadow-orange-500/20 text-sm flex items-center">
+                      <Link 
+                        to={`/package/${createSlug(pkg.title)}`}
+                        className="bg-orange-500 hover:bg-indigo-950 text-white px-5 py-2.5 rounded-xl font-bold transition-colors duration-300 shadow-lg shadow-orange-500/20 text-sm flex items-center"
+                      >
                         View Details
                         <ChevronRight size={16} className="ml-1" />
-                      </button>
+                      </Link>
                     </div>
 
                   </div>
