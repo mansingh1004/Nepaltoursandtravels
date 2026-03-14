@@ -13,10 +13,10 @@ const packageData = {
   reviews: 489,
   duration: "3 Nights 4 Days",
   route: "Gorakhpur → Kathmandu (2N) → Nagarkot (1N) → Gorakhpur",
-  originalPrice: 22500,
-  basePriceAdult: 18500,
-  basePriceChildWithBed: 12500,
-  basePriceChildWithoutBed: 8500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed:"...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: nagarkotbanner, 
   images: [
     nagarkot, // Nagarkot Sunrise

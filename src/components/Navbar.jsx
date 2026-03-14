@@ -345,7 +345,7 @@ const TravelNavbar = () => {
     { 
       name: 'Flights', 
       icon: <Plane size={22} />,
-      path: '/flights'
+      path: '/flight'
     },
     { 
       name: 'Hotels', 

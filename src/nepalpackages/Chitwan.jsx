@@ -16,10 +16,10 @@ const packageData = {
   reviews: 742,
   duration: " 4 Days/ 3 Nights",
   route: "Gorakhpur → Sunauli → Chitwan National Park (3N) → Gorakhpur",
-  originalPrice: 17500,
-  basePriceAdult: 13500,
-  basePriceChildWithBed: 8500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: chitwanbanner, 
   images: [
     chitwanbanner, // Rhino/Jungle

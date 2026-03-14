@@ -82,12 +82,13 @@ import ParoTaktsangTour from "./bhutanpackages/paro-taktsang-experience"
 import PunakhaHeritageTour from "./bhutanpackages/punakha-heritage-tour"
 import ThimphuCapitalTour from "./bhutanpackages/thimphu-capital-heart"
 import PhobjikhaValleyTour from "./bhutanpackages/phobjikha-scenic-valley"
-
+import  ScrollToTop from "./pages/ScrollToTop";
+import Flight from "./pages/Flight"
 const App=()=>{
   return(
     <>
     <BrowserRouter>
-  
+   <ScrollToTop />
     <Routes>
       <Route path="/" element={<Layout/>} >
 
@@ -180,6 +181,7 @@ const App=()=>{
 
 
 
+<Route path="flight" element={<Flight/>}/>
 
 
 

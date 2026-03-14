@@ -13,10 +13,10 @@ const packageData = {
   reviews: 485,
   duration: "2 Nights 3 Days",
   route: "Bodh Gaya (1N) → Vaishali → Kushinagar (1N) → Gorakhpur Drop",
-  originalPrice: 15500,
-  basePriceAdult: 12500,
-  basePriceChildWithBed: 8500,
-  basePriceChildWithoutBed: 6000,
+  originalPrice: "...",
+  basePriceAdult:"...",
+  basePriceChildWithBed:"...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: khushinagarbanner, 
   images: [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Bodh Gaya Temple

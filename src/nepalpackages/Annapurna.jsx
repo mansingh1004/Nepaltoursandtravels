@@ -15,10 +15,10 @@ const packageData = {
   reviews: 312,
   duration: "3 Days/ 2 Nights",
   route: "Gorakhpur → Pokhara (2N) → ABC (Heli Landing) → Gorakhpur",
-  originalPrice: 85000,
-  basePriceAdult: 75000,
-  basePriceChildWithBed: 65000,
-  basePriceChildWithoutBed: 55000,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed:"...",
+  basePriceChildWithoutBed:"...",
   topBannerImage: annapurna, 
   images: [
     "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Annapurna Mountains

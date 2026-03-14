@@ -16,10 +16,10 @@ const packageData = {
   reviews: 620,
   duration: "1 Night 2 Days",
   route: "Gorakhpur → Lucknow (1N) → Gorakhpur Drop",
-  originalPrice: 10500,
-  basePriceAdult: 7500,
-  basePriceChildWithBed: 5500,
-  basePriceChildWithoutBed: 3500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: Lucknow, 
   images: [
     Gorakhpur, // Nawabi Architecture

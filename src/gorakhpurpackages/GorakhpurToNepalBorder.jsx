@@ -12,10 +12,10 @@ const packageData = {
   reviews: 412,
   duration: "1 Night 2 Days",
   route: "Gorakhpur (1N) → Sunauli Border Drop",
-  originalPrice: 6500,
-  basePriceAdult: 4500,
-  basePriceChildWithBed: 2500,
-  basePriceChildWithoutBed: 1500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=400&q=80", 
   images: [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Temple/Gorakhnath Vibe

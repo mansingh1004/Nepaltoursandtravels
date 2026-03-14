@@ -18,10 +18,10 @@ const packageData = {
   reviews: 580,
   duration: "1 Night 2 Days",
   route: "Gorakhpur → Prayagraj (1N) → Gorakhpur Drop",
-  originalPrice: 9500,
-  basePriceAdult: 6500,
-  basePriceChildWithBed: 4500,
-  basePriceChildWithoutBed: 3000,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: gorakhpurbanner, 
   images: [
     prayagraj, // River/Sangam Vibe

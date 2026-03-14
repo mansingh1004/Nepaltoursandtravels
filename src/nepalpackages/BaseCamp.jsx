@@ -14,10 +14,10 @@ const packageData = {
   reviews: 824,
   duration: "9 Days /8 Nights  ",
   route: "Gorakhpur → Pokhara (2N) → ABC Trek (6N) → Gorakhpur",
-  originalPrice: 45000,
-  basePriceAdult: 38500,
-  basePriceChildWithBed: 28500,
-  basePriceChildWithoutBed: 22500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=400&q=80", 
   images: [
     "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // ABC Mountains

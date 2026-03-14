@@ -14,10 +14,10 @@ const packageData = {
   reviews: 524,
   duration: "1 Night 2 Days",
   route: "Gorakhpur → Sunauli → Lumbini (1N) → Gorakhpur",
-  originalPrice: 8500,
-  basePriceAdult: 6500,
-  basePriceChildWithBed: 4500,
-  basePriceChildWithoutBed: 3500,
+  originalPrice: "...",
+  basePriceAdult:"...",
+  basePriceChildWithBed:"...",
+  basePriceChildWithoutBed: "...",
   topBannerImage:  lumbinibanner, 
   images: [
    lumbini, // Lumbini elements

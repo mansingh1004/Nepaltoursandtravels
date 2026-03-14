@@ -14,10 +14,10 @@ const packageData = {
   reviews: 1240,
   duration: "1 Night 2 Days",
   route: "Gorakhpur → Ayodhya (1N) → Gorakhpur Drop",
-  originalPrice: 10500,
-  basePriceAdult: 7500,
-  basePriceChildWithBed: 5500,
-  basePriceChildWithoutBed: 3500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage:ayodhyaghat, 
   images: [
     ayodhyaghat, // Spiritual/Diya vibe

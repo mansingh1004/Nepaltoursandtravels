@@ -16,10 +16,10 @@ const packageData = {
   reviews: 845,
   duration: "2 Nights 3 Days",
   route: "Gorakhpur → Varanasi (2N) → Gorakhpur Drop",
-  originalPrice: 14500,
-  basePriceAdult: 11500,
-  basePriceChildWithBed: 7500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage:bodhgyabanner, 
   images: [
     gangaarti, // Varanasi Ghats

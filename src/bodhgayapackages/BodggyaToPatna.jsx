@@ -14,10 +14,10 @@ const packageData = {
   reviews: 512,
   duration: "2 Nights 3 Days",
   route: "Bodh Gaya (1N) → Patna (1N) → Patna Drop",
-  originalPrice: 14500,
-  basePriceAdult: 11500,
-  basePriceChildWithBed: 7500,
-  basePriceChildWithoutBed: 5500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: patnabanner, 
   images: [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Bodh Gaya Temple

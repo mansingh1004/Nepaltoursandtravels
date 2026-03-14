@@ -16,10 +16,10 @@ const packageData = {
   reviews: 612,
   duration: "5 Nights 6 Days",
   route: "Gorakhpur → Pokhara (2N) → Jomsom/Mustang (2N) → Pokhara (1N) → Gorakhpur",
-  originalPrice: 35000,
-  basePriceAdult: 28500,
-  basePriceChildWithBed: 18500,
-  basePriceChildWithoutBed: 12500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: mustangbanner, 
   images: [
     "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Mountain Landscape

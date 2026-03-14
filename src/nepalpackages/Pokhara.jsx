@@ -18,10 +18,10 @@ const packageData = {
   reviews: 856,
   duration: "4 Days/ 3 Nights ",
   route: "Gorakhpur → Lumbini → Pokhara (3N) → Gorakhpur",
-  originalPrice: 18500,
-  basePriceAdult: 14500,
-  basePriceChildWithBed: 9500,
-  basePriceChildWithoutBed: 6500,
+  originalPrice:"...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: pokharabanner, 
   images: [
     pokharabanner, // Sarangkot

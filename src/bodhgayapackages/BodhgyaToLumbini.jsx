@@ -15,10 +15,10 @@ const packageData = {
   reviews: 742,
   duration: "3 Nights 4 Days",
   route: "Bodh Gaya (1N) → Sunauli Border → Lumbini (2N) → Gorakhpur/Gaya Drop",
-  originalPrice: 20500,
-  basePriceAdult: 16500,
-  basePriceChildWithBed: 10500,
-  basePriceChildWithoutBed: 7500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: lumbinibanner, 
   images: [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Bodh Gaya Temple

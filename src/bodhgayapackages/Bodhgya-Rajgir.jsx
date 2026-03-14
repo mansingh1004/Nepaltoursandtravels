@@ -14,10 +14,10 @@ const packageData = {
   reviews: 415,
   duration: "2 Nights 3 Days",
   route: "Bodh Gaya (1N) → Rajgir/Nalanda (1N) → Gaya Drop",
-  originalPrice: 12500,
-  basePriceAdult: 9500,
-  basePriceChildWithBed: 6500,
-  basePriceChildWithoutBed: 4500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: rajgirbanner, 
   images: [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Bodh Gaya

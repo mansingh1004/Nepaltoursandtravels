@@ -14,10 +14,10 @@ const packageData = {
   reviews: 320,
   duration: "1 Night 2 Days",
   route: "Gorakhpur → Kushinagar (1N) → Gorakhpur Drop",
-  originalPrice: 8500,
-  basePriceAdult: 5500,
-  basePriceChildWithBed: 3500,
-  basePriceChildWithoutBed: 2500,
+  originalPrice: "...",
+  basePriceAdult: "...",
+  basePriceChildWithBed: "...",
+  basePriceChildWithoutBed: "...",
   topBannerImage: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=400&q=80", 
   images: [
     "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80", // Buddha/Spiritual vibe
