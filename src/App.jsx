@@ -90,6 +90,8 @@ import Flight from "./pages/Flight"
 import HotelBookingNepal from "./pages/hotels"
 import CabService from "./Services/CabService"
 
+import CurrencyExchangeNepal from "./pages/currency-exchange"
+import NepalSimCard from "./pages/sim-card"
 
 
 const App=()=>{
@@ -188,8 +190,11 @@ const App=()=>{
          <Route path="package/phobjikha-scenic-valley" element={<PhobjikhaValleyTour/>}/>
 
          <Route path="hotels" element={<HotelBookingNepal/>}/>
-<Route path="flight" element={<Flight/>}/>
+         <Route path="flight" element={<Flight/>}/>
 
+        <Route path="services/currency-exchange" element={<CurrencyExchangeNepal/>}/> 
+        <Route path="services/sim-card" element={<NepalSimCard/>}/>
+        
 
 <Route path="cabservice" element={<CabService/>}/>
 
