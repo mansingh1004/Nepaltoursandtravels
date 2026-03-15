@@ -378,7 +378,7 @@ const TravelNavbar = () => {
       name: 'Services', 
       icon: <Map size={22} />,
       subItems: [
-        { name: 'Nepal taxi and cab services', path: '/services/taxi' }
+        { name: 'Nepal taxi and cab services', path: '/cabservice' }
       ] 
     },
     { 

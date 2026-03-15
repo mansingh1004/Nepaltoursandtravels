@@ -88,6 +88,7 @@ import Flight from "./pages/Flight"
 
 
 import HotelBookingNepal from "./pages/hotels"
+import CabService from "./Services/CabService"
 
 
 
@@ -189,6 +190,8 @@ const App=()=>{
          <Route path="hotels" element={<HotelBookingNepal/>}/>
 <Route path="flight" element={<Flight/>}/>
 
+
+<Route path="cabservice" element={<CabService/>}/>
 
 
 
